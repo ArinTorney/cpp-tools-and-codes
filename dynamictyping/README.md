@@ -5,7 +5,7 @@ To initialize a variable, just use
 ```
 var x = (integer or decimal or string or wide character string or boolean);
 ```  
-You can typecast it into any of `int`, `double`, `char*`, `wchar_t*` or `bool`. For typecasting use operators. 
+You can typecast it into any of `int`, `double`, `char*`, `wchar_t*` or `bool`. For typecasting use typecasting operators. 
 ## Uses  
 You can use it to make dynamically typed arrays(with pointers, `std::vector`, std::list`, std::deque`, `std::array` etc.), maps(with `std::map`, `std::unordered_map`, `std::hash_map` etc.) and tuples(with `std::tuple` etc.), which will be very similar to Python's lists, dictionaries and tuples respectively.
 You can use it to make anything advanced which is dynamically typed, such as a programming language.
