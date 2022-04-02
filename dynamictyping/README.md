@@ -5,7 +5,14 @@ To initialize a variable, just use
 ```
 var x = (integer or decimal or string or wide character string or boolean);
 ```  
-You can typecast it into any of `int`, `double`, `char*`, `wchar_t*` or `bool`. For typecasting use typecasting operators. 
+You can typecast it into any of `int`, `float`, `char*`, `wchar_t*` or `bool`. For typecasting use typecasting operators. 
 ## Uses  
-You can use it to make dynamically typed arrays(with pointers, `std::vector`, std::list`, std::deque`, `std::array` etc.), maps(with `std::map`, `std::unordered_map`, `std::hash_map` etc.) and tuples(with `std::tuple` etc.), which will be very similar to Python's lists, dictionaries and tuples respectively.
-You can use it to make anything advanced which is dynamically typed, such as a programming language.
+You can use it to make dynamically typed arrays(with pointers, `std::vector`, `std::list`, `std::deque`, `std::array` etc.), maps(with `std::map`, `std::unordered_map`, `std::multimap` etc.) and tuples(with `std::tuple` etc.), which will be very similar to Python's lists, dictionaries and tuples respectively.
+You can use it to make anything advanced which is dynamically typed, such as a programming language.  
+# Messages  
+6 Marrch 2022: README is formed.  
+
+2 April 2022: Till now constructor is ready, and typecasts are also ready (C-style typecasts, unlike `std::any`). Also `std::ostream << var` operator overload is ready. But after few more features are added like `var + var`, a few other operator overloads etc. the source will be released.  
+# Plan  
+Stage 1. To make a class which can store value of any commonly used primitive or string type.  
+Stage 2: To make a class which can store value of any commonly used non-primitive type, like the current `var`, `var*`, or maybe even `std::vector<var>`, `std::unordered_map<var>` etc.  
