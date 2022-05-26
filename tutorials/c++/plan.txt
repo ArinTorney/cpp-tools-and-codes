@@ -18,5 +18,5 @@
 18. C++11 foreach
 19. C++11 constexpr and C++20 consteval
 20. C++11-20 attributes
-21. C++20 Concepts and Modules
-Some tutorials on C++ Standard Library...
+Some tutorials on C++ Standard Library... (like containers, file handling, smart pointers, multithreading, C standard library etc.)  
+Some tutorials and projects on Advanced Topics (some of which may require 3rd party libraries) (like audio, graphics, GUI, sockets, grammar, integration with other high level programming languages etc.)
