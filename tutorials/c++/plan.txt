@@ -15,7 +15,7 @@
 15. C++ Memory Management
 16. C++ Void Pointer
 17. C++ Preprocessor
-18. C++ Exceptions and Signals
+18. C++ Signals
 19. C++11 Anonymous Functions
 20. C++11 constexpr and C++20 consteval
 21. C++11-20 attributes
