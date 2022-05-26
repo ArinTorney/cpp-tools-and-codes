@@ -10,13 +10,14 @@
 10. C++ Function and Operator Overloading
 11. Class Polymorphism
 12. C++ Union and Enumeration
-13. C++ Memory Management
-14. C++ Void Pointer
-15. C++ Preprocessor
-16. C++ Exceptions and Signals
-17. C++11 Anonymous Functions
-18. C++11 foreach
-19. C++11 constexpr and C++20 consteval
-20. C++11-20 attributes
+13. C++ Templates, auto and decltype
+14. C++ Memory Management
+15. C++ Void Pointer
+16. C++ Preprocessor
+17. C++ Exceptions and Signals
+18. C++11 Anonymous Functions
+19. C++11 foreach
+20. C++11 constexpr and C++20 consteval
+21. C++11-20 attributes
 Some tutorials on C++ Standard Library... (like containers, file handling, smart pointers, multithreading, C standard library etc.)  
 Some tutorials and projects on Advanced Topics... (some of which may require 3rd party libraries) (like audio, graphics, GUI, sockets, grammar, integration with other high level programming languages etc.)
