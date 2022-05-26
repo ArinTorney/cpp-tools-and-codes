@@ -4,7 +4,7 @@
 4. Console Output and Input, Control Structures and break, continue, goto
 5. Derived Data Types
 6. C++ Functions
-7. C++ Class
+7. C++ Class and Namespace
 8. Class Encapsulation
 9. Class Inheritence and Abstraction
 10. C++ Function and Operator Overloading
