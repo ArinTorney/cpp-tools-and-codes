@@ -6,9 +6,9 @@
 6. C++ Functions
 7. C++ Class and Namespace
 8. Class Encapsulation
-9. Class Inheritence and Abstraction
+9. Class Inheritence
 10. C++ Function and Operator Overloading
-11. Class Polymorphism
+11. Class Abstraction and Polymorphism
 12. C++ Union and Enumeration
 13. C++ Templates, auto and decltype
 14. C++ Memory Management
