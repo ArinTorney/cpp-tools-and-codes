@@ -3,20 +3,20 @@
 3. Primitive Data Types and their Operators
 4. Console Output and Input, Control Structures and break, continue, goto
 5. Derived Data Types
-6. C++ Functions
-7. C++ Class and Namespace
-8. Class Encapsulation
-9. Class Inheritence
-10. C++ Function and Operator Overloading
-11. Class Abstraction and Polymorphism
-12. C++ Union and Enumeration
-13. C++ Templates, auto and decltype
-14. C++ Memory Management
-15. C++ Void Pointer
-16. C++ Preprocessor
-17. C++ Exceptions and Signals
-18. C++11 Anonymous Functions
-19. C++11 foreach
+6. C++11 foreach
+7. C++ Functions
+8. C++ Class and Namespace
+9. Class Encapsulation
+10. Class Inheritence
+11. C++ Function and Operator Overloading
+12. Class Abstraction and Polymorphism
+13. C++ Union and Enumeration
+14. C++ Templates, auto and decltype
+15. C++ Memory Management
+16. C++ Void Pointer
+17. C++ Preprocessor
+18. C++ Exceptions and Signals
+19. C++11 Anonymous Functions
 20. C++11 constexpr and C++20 consteval
 21. C++11-20 attributes
 Some tutorials on C++ Standard Library... (like containers, file handling, smart pointers, multithreading, C standard library etc.)  
