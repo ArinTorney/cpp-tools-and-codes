@@ -19,5 +19,5 @@
 19. C++11 Anonymous Functions
 20. C++11 constexpr and C++20 consteval
 21. C++11-20 attributes
-Some tutorials on C++ Standard Library... (like containers, file handling, smart pointers, multithreading, C standard library etc.)  
+Some tutorials on C++ Standard Library... (like containers, file handling, smart pointers, multithreading, C standard library etc.)
 Some tutorials and projects on Advanced Topics... (some of which may require 3rd party libraries) (like audio, graphics, GUI, sockets, grammar, JSON, integration with other high level programming languages etc.)
