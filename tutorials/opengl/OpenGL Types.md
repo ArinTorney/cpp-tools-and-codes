@@ -8,10 +8,10 @@
 |GLubyte|unsigned char<br>uint8_t|byte<br>(GLubyte* is ByteBuffer or (int\[\], int v_offset))|1|  
 |GLshort|short<br>int16_t|short<br>(GLshort* is ShortBuffer or (short\[\], short v_offset))|2|  
 |GLushort|unsigned short<br>uint16_t|short<br>(GLushort* is ShortBuffer or (short\[\], short v_offset))|2|  
-|GLint<br>GLsizei<br>Glfixed|int<br>int32_t|int<br>(GLint* is IntBuffer or (int\[\], int v_offset))|4|  
-|GLuint<br>GLenum<br>GLbitfiled|unsigned int<br>uint32_t|int<br>(GLuint* is IntBuffer or (int\[\], int v_offset))|4|  
-|GLint64|\_\_int64<sub>MSVC < 1400</sub><br>signed long long<sub>Borland C++</sub><br>int64_t|long<br>(GLint64* is LongBuffer or (long\[\], int v_offset))|4|  
-|GLuint64|unsigned \_\_int64<sub>MSVC < 1400</sub><br>unsigned long long<sub>Borland C++</sub><br>uint64_t|long<br>(GLuint64* is LongBuffer or (long\[\], int v_offset))|4|  
+|GLint<br>GLsizei<br>Glfixed|int<br>long<br>int32_t|int<br>(GLint* is IntBuffer or (int\[\], int v_offset))|4|  
+|GLuint<br>GLenum<br>GLbitfiled|unsigned int<br>unsigned long<br>uint32_t|int<br>(GLuint* is IntBuffer or (int\[\], int v_offset))|4|  
+|GLint64|\_\_int64<sub>MSVC < 1400</sub><br>signed long long<sub>Borland C++</sub><br>int64_t|long<br>(GLint64* is LongBuffer or (long\[\], int v_offset))|8|  
+|GLuint64|unsigned \_\_int64<sub>MSVC < 1400</sub><br>unsigned long long<sub>Borland C++</sub><br>uint64_t|long<br>(GLuint64* is LongBuffer or (long\[\], int v_offset))|8|  
 |GLhalf<sub>NVIDIA-specific</sub>|unsigned short||2|  
 |GLfloat<br>GLclampf|float|float<br>(GLfloat* is FloatBuffer or (float, int v_offset))|4|  
 |GLdouble<br>GLclampd|double|double<br>(GLdouble* is DoubleBuffer or (double, int v_offset))|8|  
