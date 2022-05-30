@@ -10,12 +10,12 @@
 |GLushort|unsigned short<br>uint16_t|short<br>(GLushort* is ShortBuffer or (short\[\], short v_offset))|2|  
 |GLint<br>GLsizei<br>Glfixed|int<br>int32_t|int<br>(GLint* is IntBuffer or (int\[\], int v_offset))|4|  
 |GLuint<br>GLenum<br>GLbitfiled|unsigned int<br>uint32_t|int<br>(GLuint* is IntBuffer or (int\[\], int v_offset))|4|  
-|GLint64|\_\_int64<sub>MSVC <1400</sub><br>signed long long<sub>Borland C++</sub><br>int64_t|long<br>(GLint64* is LongBuffer or (long\[\], int v_offset))|4|  
-|GLuint64|unsigned \_\_int64<sub>MSVC <1400</sub><br>unsigned long long<sub>Borland C++</sub><br>uint64_t|long<br>(GLuint64* is LongBuffer or (long\[\], int v_offset))|4|  
+|GLint64|\_\_int64<sub>MSVC < 1400</sub><br>signed long long<sub>Borland C++</sub><br>int64_t|long<br>(GLint64* is LongBuffer or (long\[\], int v_offset))|4|  
+|GLuint64|unsigned \_\_int64<sub>MSVC < 1400</sub><br>unsigned long long<sub>Borland C++</sub><br>uint64_t|long<br>(GLuint64* is LongBuffer or (long\[\], int v_offset))|4|  
 |GLhalf<sub>NVIDIA-specific</sub>|unsigned short||2|  
 |GLfloat<br>GLclampf|float|float<br>(GLfloat* is FloatBuffer or (float, int v_offset))|4|  
 |GLdouble<br>GLclampd|double|double<br>(GLdouble* is DoubleBuffer or (double, int v_offset))|8|  
-|GLintptr<br>GLsizeiptr|\_\_w64 int<sub>MSVC 32-bit >= 1300</sub><br>int<sub>MSVC 32-bit <1300</sub><br>\_\_int64<sub>MSVC 64-bit</sub><br>ptrdiff_t|long|size of a pointer type|  
+|GLintptr<br>GLsizeiptr|\_\_w64 int<sub>MSVC 32-bit >= 1300</sub><br>int<sub>MSVC 32-bit < 1300</sub><br>\_\_int64<sub>MSVC 64-bit</sub><br>ptrdiff_t|long|size of a pointer type|  
 |GLsync|struct \_\_GLsync*|long|size of a pointer type|  
 
 ### Reference  
