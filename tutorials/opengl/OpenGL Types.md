@@ -19,4 +19,5 @@
 |GLsync|struct \_\_GLsync*|long|size of a pointer type|  
 
 ### Reference  
-GLEW
+1. GLEW  
+2. JOGL Docs  
