@@ -18,6 +18,7 @@ You can use it to make anything advanced which is dynamically typed, such as a p
 2 April 2022: Till now constructor is ready, and typecasts are also ready (C-style typecasts, unlike `std::any`). Also `std::ostream << var` operator overload is ready. But after few more features are added like `var + var`, a few other operator overloads etc. the source will be released.  
 
 9 June 2022: Till now over the previously ready things, `operator+` is ready, and `print` and `input` functions are ready.  
+
 19 June 2022: Some fixes in `operator+`, and basic arithmetic operator overloads are ready. Wide character string support is deprecated for now but will not be removed so soon, since UTF-16 strings lack their own good library, and Win32 API cannot accept `char16_t*` or some type like that.  
 # Testing  
 This project is being tested with GCC 11.2(MSYS2 MinGW64), but compatibility with GCC 9(for Focal Fossa Ubuntu) and Clang 9 will be kept at least for now.  
