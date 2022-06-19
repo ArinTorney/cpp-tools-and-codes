@@ -19,7 +19,7 @@ You can use it to make anything advanced which is dynamically typed, such as a p
 
 9 June 2022: Till now over the previously ready things, `operator+` is ready, and `print` and `input` functions are ready.
 # Testing  
-This project is being tested with GCC 11, but compatibility with GCC 9 and Clang 9 will be kept.  
+This project is being tested with GCC 11.2(MSYS2 MinGW64), but compatibility with GCC 9(for Focal Fossa Ubuntu) and Clang 9 will be kept at least for now.  
 # License  
 This project is licensed under Apache License 2.0  
 # Plan  
