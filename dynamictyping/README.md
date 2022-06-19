@@ -1,6 +1,6 @@
-# Advanced Dynamic Typing for C++  
+# Advanced Dynamic Typing and other Utilities for C++  
 C++ is a statically typed language. Recently, it is getting dynamic typing features, like generic programming using templates, `auto` and `decltype(auto)`, and `std::any` and `std::variant` since C++17. But I thought of making a class for all primitive types. This is named `_var` It is inspired from Python's dynamic typing. It will be released afterwards, after a few modifications, and also possibly additions.  
-## Syntax  
+# Syntax  
 ### Initialise a variable
 To initialize a variable, just use  
 ```
@@ -8,12 +8,21 @@ _var x = (integer or decimal or string(std::string or char*) or wide character(s
 ```  
 You can typecast it into any of `int`, `float`, `double`, `char*`, `wchar_t*` or `bool`. For typecasting use typecasting operators.  
 ### `print` and `input`  
----TO-BE-WRITTEN---
-## Uses  
+```c++
+void print(_var output, _var end="\n", FILE* file=stdout);
+```  
+This is very similar to Python's print.  
+```c++
+template<typename T> _var input(const char* prompt) {
+  // code
+}
+```
+This is very similar to Python's input. `input<int>("prompt>")` is equivalent to Python's `int(input("prompt"))`.  
+# Uses  
 You can use it to make dynamically typed arrays(with pointers, `std::vector`, `std::list`, `std::deque`, `std::array` etc.), maps(with `std::map`, `std::unordered_map`, `std::multimap` etc.) and tuples(with `std::tuple` etc.), which will be very similar to Python's lists, dictionaries and tuples respectively.
 You can use it to make anything advanced which is dynamically typed, such as a programming language.  
 # Messages  
-6 Marrch 2022: README is formed.  
+6 March 2022: README is formed.  
 
 2 April 2022: Till now constructor is ready, and typecasts are also ready (C-style typecasts, unlike `std::any`). Also `std::ostream << var` operator overload is ready. But after few more features are added like `var + var`, a few other operator overloads etc. the source will be released.  
 
