@@ -1,5 +1,6 @@
 # Advanced Dynamic Typing and other Utilities for C++  
 C++ is a statically typed language. Recently, it is getting dynamic typing features, like generic programming using templates, `auto` and `decltype(auto)`, and `std::any` and `std::variant` since C++17. But I thought of making a class for all primitive types. This is named `_var` It is inspired from Python's dynamic typing. It will be released afterwards, after a few modifications, and also possibly additions.  
+
 I have also made a small dictionary class using `std::vector` and `std::initializer_list`. This is very similar to `std::unordered_map`, though, but maybe much lighter.  
 # Syntax  
 ### Initialise a variable
