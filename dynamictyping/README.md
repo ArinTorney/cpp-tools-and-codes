@@ -4,7 +4,7 @@ C++ is a statically typed language. Recently, it is getting dynamic typing featu
 ### Initialise a variable
 To initialize a variable, just use  
 ```
-__var x = (integer or decimal or string or wide character string or boolean);
+_var x = (integer or decimal or string or wide character string or boolean);
 ```  
 You can typecast it into any of `int`, `float`, `char*`, `wchar_t*` or `bool`. For typecasting use typecasting operators.  
 ### `print` and `input`  
@@ -19,7 +19,9 @@ You can use it to make anything advanced which is dynamically typed, such as a p
 
 9 June 2022: Till now over the previously ready things, `operator+` is ready, and `print` and `input` functions are ready.
 # Testing  
-This project is being tested with GCC 11, but compatibility with GCC 9 and Clang 9 may be kept.  
+This project is being tested with GCC 11, but compatibility with GCC 9 and Clang 9 will be kept.  
+# License  
+This project is licensed under Apache License 2.0  
 # Plan  
 Stage 1. To make a class which can store value of any commonly used primitive or string type.  
 Stage 2: To make a class which can store value of any commonly used non-primitive type, like the current `var`, `var*`, or maybe even `std::vector<var>`, `std::unordered_map<var>` etc.  
