@@ -1,6 +1,6 @@
 1. Setup and Hello World
 2. C++ Variables and Data Types
-3. Primitive Data Types and their Operators
+3. Important Data Types and their Operators
 4. Console Output and Input, Control Structures and break, continue, goto
 5. Derived Data Types
 6. C++11 foreach
