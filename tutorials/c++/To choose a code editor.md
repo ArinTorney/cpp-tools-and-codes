@@ -64,6 +64,10 @@ Micro, written in Go, is an improvement over GNU Nano, which in turn is an impro
 ### Owner: GNU  
 ### License: GPLv3+  
 ### -----TODO-----  
+## BlueFish  
+### -----TODO-----
+## Geany  
+### -----TODO-----  
 # Simple  
 ## Gedit  
 ### Owner: GNU  
@@ -100,3 +104,16 @@ This is an almost complete replacement to Notepad++ for Linux and MacOS, with sl
 ### Plugins: ~/.nanorc  
 ### UI: Text based  
 GNU Nano, written in C, which in turn is an improvement over Pico, a console based text editor.  
+## Brackets  
+### -----TODO-----  
+# Cloud  
+## OnlineGDB  
+### -----TODO-----  
+## GitHub Codespaces  
+### -----TODO-----  
+## Code Anywhere  
+### -----TODO-----  
+## Replit  
+### -----TODO-----  
+## Codesandbox  
+### -----TODO-----  
