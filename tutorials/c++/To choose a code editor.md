@@ -31,7 +31,7 @@ This is a cross platform code editor written in Electron which has a very custom
 ### Packages: ~2,500 written in Python  
 This is a cross platform code editor written in C++ and Python (according to Wikipedia, since no source available) which is very fast for a graphical user interface based editor, even with great features and has a big community. Despite being proprietary, it is very extensible. Packages add a good amount of functionality, which adds a lot of features in it, like themes, color schemes, syntax, autocomplete, linting, live server, markdown support, formatting code, sidebar enhancements, color picker etc. The key bindings can be customised using a JSON file. its user interface is a fair one with a classic menu layout with File, Edit, Selection, Find, View, Goto, Tools, Project, Preferences and Help tabs and at the left a pane to manage project files.  
 ## Vim  
-### Owner: Nram Moolenaar  
+### Owner: Bram Moolenaar  
 ### License: Vim License  
 ### Speed: Fast  
 ### Projects: NerdTree plugin  
