@@ -38,6 +38,14 @@ This is a cross platform code editor written in C++ and Python (according to Wik
 ### Multiple Tabs: Yes  
 ### Plugins: ~19,000 written in Vim script  
 This is a cross platform code editor written in C, as an improved version of Vi editor that is backwards compatible with it. It is very fast because its interface is text based instead of graphical. This is one reason why it is very extensible, even more than Atom. Plugins can be and are written for everything, from simple commandlets to git integration, code completion, color picker, formatting code, snippets, linting etc. It is built to be used with keyboard, although there is a graphical version of it called gVim.  
+## Neovim  
+### Owner: Thiago de Arruda  
+### License: Neovim License  
+### Speed: Fast  
+### Projects: project.nvim plugin  
+### Multiple Tabs: Yes  
+### Plugins: written in Vim script and Lua  
+This is a cross platform code editor written in C, as an improved version of Vim editor. It is almost backwards compatible with Vim, and is slowly growing.
 # Simple  
 ## Gedit  
 ### Owner: GNU  
