@@ -16,4 +16,11 @@ This is a cross platform code editor written in Electron which has a very custom
 ## Gedit  
 ### Owner: GNU  
 ### License: GPLv2+  
-This is a code editor for Linux and MacOS (and optionally for Windows through MSYS2) written in GTK 3 and is simple yet powerful. It has only 11 plugins though. But they all provide basic important features like Python console, snippets, document statistics etc. And a customised style can also be added. It also supports a variety of syntaxes
+This is a code editor for Linux and MacOS (and optionally for Windows through MSYS2) written in GTK 3 and is simple yet powerful. It has only 11 plugins bundled though. But they all provide basic important features like Python console, snippets, document statistics etc. And a customised style can also be added. It also supports a variety of syntaxes. Because of the GTK, it has a excellent user interface, with "New Window", "Quick Open...", "Save As...", "Save All", "Find...", "Find and Replace...", "Clear Highlight", "Go to Line...", "View", "Tools", "Preferences", "Keyboard Shortcuts", "Help" and "About Text Editor" options in the menu (and refresh, print and fullscreen) and other options for opening files, new tabs and saving files on the bar at the top.  
+## Notepad++  
+### Owner: Don Ho  
+### License: GPLv3+, GPv2+ (until v7.9.2)  
+This is a code editor for Windows (and optionally for Linux through Wine), and is simple yet powerful and very fast. Currently, it has around 105 plugins only officially and are merely some dynamic link libraries. Others have to be installed as DLLs separately and manually added, which has to be done in the 64-bit version to get a community mmaintained color picker (there is no inbuilt).  
+## Notepadqq  
+### Owner: Daniel di Sarli  
+### License: GPLv3+  
