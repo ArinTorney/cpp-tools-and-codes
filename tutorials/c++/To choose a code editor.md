@@ -37,7 +37,7 @@ This is a cross platform code editor written in C++ and Python (according to Wik
 ### Projects: NerdTree plugin  
 ### Multiple Tabs: Yes  
 ### Plugins: ~19,000 written in Vim script  
-This is a cross platform code editor written in C, as an improved version of Vi editor that is backwards compatible with it. It is very fast because its interface is text based instead of graphical. This is one reason why it is very extensible, even more than Atom. Plugins can be and are written for everything, from simple commandlets to git integration, code completion, color picker, formatting code, snippets, linting etc. It is built to be used with keyboard, but there is a graphical version called gVim.  
+This is a cross platform code editor written in C, as an improved version of Vi editor that is backwards compatible with it. It is very fast because its interface is text based instead of graphical. This is one reason why it is very extensible, even more than Atom. Plugins can be and are written for everything, from simple commandlets to git integration, code completion, color picker, formatting code, snippets, linting etc. It is built to be used with keyboard, although there is a graphical version of it called gVim.  
 # Simple  
 ## Gedit  
 ### Owner: GNU  
