@@ -60,6 +60,10 @@ This is a cross platform code editor written in C, as an improved version of Vim
 ### Plugins: 30, written in Lua  
 ### UI: Text based  
 Micro, written in Go, is an improvement over GNU Nano, which in turn is an improvement over Pico, a console based text editor.  
+## GNU Emacs  
+### Owner: GNU  
+### License: GPLv3+  
+### -----TODO-----  
 # Simple  
 ## Gedit  
 ### Owner: GNU  
