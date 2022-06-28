@@ -53,7 +53,7 @@ This is a cross platform code editor written in C, as an improved version of Vim
 ### Projects: No  
 ### Multiple Tabs: Yes  
 ### Plugins: 30, written in Lua  
-Micro is an improvement over GNU Nano, which in turn is an improvement over Pico, a console based text editor.  
+Micro, written in Go, is an improvement over GNU Nano, which in turn is an improvement over Pico, a console based text editor.  
 # Simple  
 ## Gedit  
 ### Owner: GNU  
@@ -84,4 +84,4 @@ This is an almost complete replacement to Notepad++ for Linux and MacOS, with sl
 ### Projects: No  
 ### Multiple Tabs: No  
 ### Plugins: ~/.nanorc  
-GNU Nano, which in turn is an improvement over Pico, a console based text editor.  
+GNU Nano, written in C, which in turn is an improvement over Pico, a console based text editor.  
