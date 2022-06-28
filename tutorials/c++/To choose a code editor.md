@@ -45,7 +45,15 @@ This is a cross platform code editor written in C, as an improved version of Vi 
 ### Projects: project.nvim plugin  
 ### Multiple Tabs: Yes  
 ### Plugins: written in Vim script and Lua  
-This is a cross platform code editor written in C, as an improved version of Vim editor. It is almost backwards compatible with Vim, and is slowly growing.
+This is a cross platform code editor written in C, as an improved version of Vim editor. It is almost backwards compatible with Vim, and is slowly growing.  
+## Micro  
+### Owner: Zachary Yedidia  
+### License: MIT License, Go License (Golang), Apache License 2.0 (gdamore/encoding, zyedidia/tcell), BSD 3-clause (zyedidia/clipboard, golang/x), MPL (gopher-luar)  
+### Speed: Fast  
+### Projects: No  
+### Multiple Tabs: Yes  
+### Plugins: 30, written in Lua  
+Micro is an improvement over GNU Nano, which in turn is an improvement over Pico, a console based text editor.  
 # Simple  
 ## Gedit  
 ### Owner: GNU  
@@ -69,3 +77,11 @@ This is a code editor for Windows (and optionally for Linux through Wine) writte
 ### Supported Programming Language Syntaxes (by default): 100+  
 ### Plugins: written in JavaScript
 This is an almost complete replacement to Notepad++ for Linux and MacOS, with slight changes. written in C++ and JavaScript.  
+## GNU Nano  
+### Owner: GNU  
+### License: GPL  
+### Speed: Fast  
+### Projects: No  
+### Multiple Tabs: No  
+### Plugins: ~/.nanorc  
+GNU Nano, which in turn is an improvement over Pico, a console based text editor.  
