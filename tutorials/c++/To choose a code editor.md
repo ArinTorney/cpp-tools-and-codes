@@ -10,6 +10,7 @@ There can be various choices on how to choose a text editor, and the ultimate pr
 ### Multiple Tabs: Yes  
 ### Packages: ~12,500 written in JavaScript  
 ### Themes: ~3,000 written in JSON  
+### UI: Graphical  
 This is a cross platform code editor written in Electron which has a highly customisable user interface and is highly extensible and has a large community.  It has a huge set of features like Git and GitHub integration, snippets, autocomplete, markdown preview, settings GUI etc. coming inbuilt through preinstalled packages. Packages add a good amount of functionality, which adds a lot of features in it, like keybindings, linting, syntax, live server, tabbed terminal, color picker, formatting JavaScript, markdown to PDF etc. and themes add style to its user interface. Its user interface is good, with a classic menu layout with File, Edit, View, Selection, Find, Packages and Help tabs and at the left a pane to manage project files. Ctrl-Shift-P opens command palette.  
 Note: Sadly such a good editor and all its packages will be archived on December 15 2022.  
 ## Visual Studio Code  
@@ -20,6 +21,7 @@ Note: Sadly such a good editor and all its packages will be archived on December
 ### Projects: Yes  
 ### Multiple Tabs: Yes  
 ### Extensions: ~30,000 written in JavaScript and TypeScript  
+### UI: Graphical  
 This is a cross platform code editor written in Electron which has a very customisable user interface and is very extensible (both comparable to but not as much as Atom) and has a large community (larger than Atom). It has many features like Git and GitHub Integration (less than Atom), tabbed terminal, autocomplete, settings GUI etc. coming inbuilt. Extensions add a good amount of functionality, which adds a lot of features in it, like keybindings, themes, linting, live server, intellisense, color picker, formatting code, building program, markdown preview, markdown to PDF etc. Its user interface is excellent with a styled menu layout with File, Edit, Selection, View, Go, Run, Terminal and Help tabs and at the left a ribbon with options to manage extensions, project files, git repositories and editor settings. F1 key or Ctrl-Shift-P opens command palette.  
 ## Sublime Text  
 ### Owner: Sublime HQ Proprietary Ltd.  
@@ -29,7 +31,8 @@ This is a cross platform code editor written in Electron which has a very custom
 ### Projects: Yes  
 ### Multiple Tabs: Yes  
 ### Packages: ~2,500 written in Python  
-This is a cross platform code editor written in C++ and Python (according to Wikipedia, since no source available) which is very fast for a graphical user interface based editor, even with great features and has a big community. Despite being proprietary, it is very extensible. Packages add a good amount of functionality, which adds a lot of features in it, like themes, color schemes, syntax, autocomplete, linting, live server, markdown support, formatting code, sidebar enhancements, color picker etc. The key bindings can be customised using a JSON file. its user interface is a fair one with a classic menu layout with File, Edit, Selection, Find, View, Goto, Tools, Project, Preferences and Help tabs and at the left a pane to manage project files.  
+### UI: Graphical  
+This is a cross platform code editor written in C++ and Python (according to Wikipedia, since no source available) which is extraordinarily fast for a graphical editor with great useful features and has a big community. Despite being proprietary, it is very extensible. Packages add a good amount of functionality, which adds a lot of features in it, like themes, color schemes, syntax, autocomplete, linting, live server, markdown support, formatting code, sidebar enhancements, color picker etc. The key bindings can be customised using a JSON file. its user interface is a fair one with a classic menu layout with File, Edit, Selection, Find, View, Goto, Tools, Project, Preferences and Help tabs and at the left a pane to manage project files.  
 ## Vim  
 ### Owner: Bram Moolenaar  
 ### License: Vim License  
@@ -37,7 +40,8 @@ This is a cross platform code editor written in C++ and Python (according to Wik
 ### Projects: NerdTree plugin  
 ### Multiple Tabs: Yes  
 ### Plugins: ~19,000 written in Vim script  
-This is a cross platform code editor written in C, as an improved version of Vi editor that is backwards compatible with it. It is very fast because its interface is text based instead of graphical. This is one reason why it is very extensible, even more than Atom. Plugins can be and are written for everything, from simple commandlets to git integration, code completion, color picker, formatting code, snippets, linting etc. It is built to be used with keyboard, although there is a graphical version of it called gVim.  
+### UI: Text based  
+This is a cross platform code editor written in C, as an improved version of Vi editor that is backwards compatible with it. This is one reason why it is very extensible, even more than Atom. Plugins can be and are written for everything, from simple commandlets to git integration, code completion, color picker, formatting code, snippets, linting etc. It is built to be used with keyboard, although there is a graphical version of it called gVim.  
 ## Neovim  
 ### Owner: Thiago de Arruda  
 ### License: Neovim License  
@@ -45,6 +49,7 @@ This is a cross platform code editor written in C, as an improved version of Vi 
 ### Projects: project.nvim plugin  
 ### Multiple Tabs: Yes  
 ### Plugins: written in Vim script and Lua  
+### UI: Text based  
 This is a cross platform code editor written in C, as an improved version of Vim editor. It is almost backwards compatible with Vim, and is slowly growing.  
 ## Micro  
 ### Owner: Zachary Yedidia  
@@ -53,6 +58,7 @@ This is a cross platform code editor written in C, as an improved version of Vim
 ### Projects: No  
 ### Multiple Tabs: Yes  
 ### Plugins: 30, written in Lua  
+### UI: Text based  
 Micro, written in Go, is an improvement over GNU Nano, which in turn is an improvement over Pico, a console based text editor.  
 # Simple  
 ## Gedit  
@@ -62,6 +68,7 @@ Micro, written in Go, is an improvement over GNU Nano, which in turn is an impro
 ### Projects: No  
 ### Multiple Tabs: Yes
 ### Plugins: 11  
+### UI: Graphical  
 This is a code editor for Linux and MacOS (and optionally for Windows through MSYS2) written in GTK 3 and is simple yet powerful. It has only 11 plugins bundled though. But they all provide basic important features like Python console, snippets, document statistics etc. And a customised style can also be added. Because of the GTK, it has a excellent user interface, with "New Window", "Quick Open...", "Save As...", "Save All", "Find...", "Find and Replace...", "Clear Highlight", "Go to Line...", "View", "Tools", "Preferences", "Keyboard Shortcuts", "Help" and "About Text Editor" options in the GTK menu (and refresh, print and fullscreen) and other options for opening files, new tabs and saving files on the bar at the top.  
 ## Notepad++  
 ### Owner: Don Ho  
@@ -70,12 +77,15 @@ This is a code editor for Linux and MacOS (and optionally for Windows through MS
 ### Projects: No  
 ### Multiple Tabs: Yes  
 ### Plugins: ~105 written in C and C++  
+### UI: Graphical  
 This is a code editor for Windows (and optionally for Linux through Wine) written in C++, and is simple yet powerful and very fast. There are very few plugins which are merely some dynamic link libraries. Others have to be installed as DLLs separately and manually added, which has to be done in the 64-bit version to get a community mmaintained color picker (there is no inbuilt). It has a simple classic user interface with a classic menu layout with File, Edit, Search, View, Encoding, Language, Settings, Tools, Macro, Run, Plugins, Window and ? tabs and below that some icon shortcuts to them.  
 ## Notepadqq  
 ### Owner: Daniel di Sarli  
 ### License: GPLv3+  
 ### Supported Programming Language Syntaxes (by default): 100+  
-### Plugins: written in JavaScript
+### Multiple Tabs: Yes  
+### Plugins: written in JavaScript  
+### UI: Graphical  
 This is an almost complete replacement to Notepad++ for Linux and MacOS, with slight changes. written in C++ and JavaScript.  
 ## GNU Nano  
 ### Owner: GNU  
@@ -84,4 +94,5 @@ This is an almost complete replacement to Notepad++ for Linux and MacOS, with sl
 ### Projects: No  
 ### Multiple Tabs: No  
 ### Plugins: ~/.nanorc  
+### UI: Text based  
 GNU Nano, written in C, which in turn is an improvement over Pico, a console based text editor.  
