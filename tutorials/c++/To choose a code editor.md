@@ -12,7 +12,7 @@ There can be various choices on how to choose a text editor, and the ultimate pr
 ### Themes: ~3,000 written in JSON  
 ### UI: Graphical  
 This is a cross platform code editor written in Electron which has a highly customisable user interface and is highly extensible and has a large community.  It has a huge set of features like Git and GitHub integration, snippets, autocomplete, markdown preview, settings GUI etc. coming inbuilt through preinstalled packages. Packages add a good amount of functionality, which adds a lot of features in it, like keybindings, linting, syntax, live server, tabbed terminal, color picker, formatting JavaScript, markdown to PDF etc. and themes add style to its user interface. Its user interface is good, with a classic menu layout with File, Edit, View, Selection, Find, Packages and Help tabs and at the left a pane to manage project files. Ctrl-Shift-P opens command palette.  
-Note: Sadly such a good editor and all its packages will be archived on December 15 2022.  
+### Note: Sadly such a good editor and all its packages will be archived on December 15 2022 in favour of Visual Studio Code and GitHub Codespaces.  
 ## Visual Studio Code  
 ### Owner: Microsoft  
 ### License: MIT License  
