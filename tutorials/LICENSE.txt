@@ -1,0 +1,1 @@
+All the files in this folder directly or indirectly(through subfolder(s) of this folder) are licensed under the Creative Commons Attribution-ShareAlike 4.0 International as published by the Free Software Foundation. View LICENSE-CREATIVECOMMONS-BYSA.txt for more information.
