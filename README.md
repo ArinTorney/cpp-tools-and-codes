@@ -5,4 +5,7 @@ This is nothing, just a bunch of C++ codes to help programming.
 1. Primitive Duck Type (./dynamictyping) (Under Apache 2.0)  
 2. OpenGL Framework (yet to be created) (Under GCC License) (Uses FreeGLUT and GLEW)  
 ### Rust  
-None
+None  
+### Tutorials and Blogs  
+1. C++(./tutorials/cpp)  
+2. OpenGL(./tutorials/opengl)(C++)  
