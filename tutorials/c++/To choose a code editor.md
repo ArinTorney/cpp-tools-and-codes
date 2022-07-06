@@ -15,7 +15,7 @@ This is a cross platform code editor written in Electron which has a highly cust
 ### Note: Sadly such a good editor and all its packages will be archived on December 15 2022 in favour of Visual Studio Code and GitHub Codespaces.  
 ## Visual Studio Code  
 ### Owner: Microsoft  
-### License: MIT License  
+### License: Binaries: Microsoft Software License Terms, Source: MIT License, VSCodium unofficial builds: MIT License  
 ### Speed: Medium  
 ### Supported Programming Language Syntaxes (by default): 75  
 ### Projects: Yes  
@@ -50,7 +50,7 @@ This is a cross platform code editor written in C, as an improved version of Vi 
 ### Multiple Tabs: Yes  
 ### Plugins: written in Vim script and Lua  
 ### UI: Text based  
-This is a cross platform code editor written in C, as an improved version of Vim editor. It is almost backwards compatible with Vim, and is slowly growing.  
+This is a cross platform code editor written in C, as an improved version of Vim editor. It is almost backwards compatible with Vim, and is slowly growing. It is highly extensible, maybe even the most extensible code editor. Like Vim, it uses plugin managers, the most popular of which is vim-plug. It can do everything with the help of plugins, everything which other editors like Visual Studio Code and Atom can do.  
 ## Micro  
 ### Owner: Zachary Yedidia  
 ### License: MIT License, Go License (Golang), Apache License 2.0 (gdamore/encoding, zyedidia/tcell), BSD 3-clause (zyedidia/clipboard, golang/x), MPL (gopher-luar)  
