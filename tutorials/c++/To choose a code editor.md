@@ -70,6 +70,12 @@ Micro, written in Go, is an improvement over GNU Nano, which in turn is an impro
 ### Written in: C  
 ### Owner: GNU  
 ### License: GPLv3+  
+### Speed: Fast  
+### Projects: Via plugin  
+### Multiple Tabs: Yes  
+### Plugins: written in Emacs Lisp  
+### UI: Text based
+###Multi
 ### -----TODO-----  
 ## BlueFish  
 ### -----TODO-----
