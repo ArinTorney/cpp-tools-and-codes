@@ -127,7 +127,7 @@ This is an almost complete replacement to Notepad++ for Linux and MacOS, with sl
 ### Multiple Tabs: No  
 ### Plugins: ~/.nanorc  
 ### UI: Text based  
-GNU Nano, written in C, which in turn is an improvement over Pico, a console based text editor.  
+GNU Nano, written in C, which in turn is an improvement over Pico, a console based text editor. But this editor seems to be somewhat buggy.  
 ## Brackets  
 ### -----TODO-----  
 # Cloud  
