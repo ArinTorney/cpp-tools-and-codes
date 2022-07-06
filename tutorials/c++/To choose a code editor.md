@@ -79,6 +79,15 @@ Micro, written in Go, is an improvement over GNU Nano, which in turn is an impro
 ### -----TODO-----
 ## Geany  
 ### -----TODO-----  
+## Recommendation
+### Graphical  
+1. Visual Studio Code  
+2. Atom  
+3. Sublime Text  
+### Text based  
+1. Neovim  
+2. Emacs  
+3. Vim
 # Simple  
 ## Gedit  
 ### Written in: C  
