@@ -82,8 +82,11 @@ Micro, written in Go, is an improvement over GNU Nano, which in turn is an impro
 ## Recommendation
 ### Graphical  
 1. Visual Studio Code  
+With all the appropriate extensions, which take the right advantage of its features like for programming, it can become almost an IDE of a programming language capable of intellisense, debugging, linting, building, prettifying and much more.  
 2. Atom  
+By far being possibly the most extensible graphical text editor (not command line text editor with(out) a GUI), with all the appropriate extensions, it can do almost everything Visual Studio Code can, maybe even more, except for maybe intellisense.  
 3. Sublime Text  
+Even though it is source unavailable proprietary, it is pretty extensible, and has a bunch of builtin features too, so it can do almost everything Atom and Visual Studio Code can do.
 ### Text based  
 1. Neovim  
 2. Emacs  
