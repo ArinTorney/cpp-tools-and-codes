@@ -74,7 +74,8 @@ Micro, written in Go, is an improvement over GNU Nano, which in turn is an impro
 ### Projects: Via plugin  
 ### Multiple Tabs: Yes  
 ### Plugins: written in Emacs Lisp  
-### UI: Text based
+### UI: Text based  
+GNU Emacs is possibly the only editor in Emacs family being developed and used. Others like Gosling Emacs, XEmacs are no longer being developed. This editor is praised for being highly extensible.
 ## BlueFish  
 ### -----TODO-----
 ## Geany  
