@@ -16,6 +16,7 @@ First let us see the program.
 #![allow(unused_mut)]
 #![allow(dead_code)]
 #![allow(unused_variables)]
+#![allow(path_statements)]
 
 fn main() {
     println!("Hello World");
