@@ -11,6 +11,8 @@ Rust is an object based (inheritence is not possible but can be made possible to
 First let us see the program.
 ```rust
 #![allow(non_camel_case_types)]
+#![allow(non_snake_case)]
+#![allow(non_upper_case_globals)]
 #![allow(unused_mut)]
 #![allow(dead_code)]
 #![allow(unused_variables)]
