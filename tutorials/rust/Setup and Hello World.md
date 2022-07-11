@@ -9,23 +9,36 @@ Rust is an object based (inheritence is not possible but can be made possible to
 2. Text Editor  
 ## Hello World  
 First let us see the program.
+<!--// May be required in some cases
+// #![allow(unused_variables)]
+// #![allow(unused_braces)]
+// #![allow(unused_assignments)]
+// #![allow(unused_comparisons)]
+// #![allow(unused_parens)]
+// #![allow(unused_labels)]
+// #![allow(unused_imports)]
+// #![allow(while_true)]
+// #![allow(large_assignments)]
+// #![allow(anonymous_parameters)]-->  
+
 ```rust
 #![allow(non_camel_case_types)]
 #![allow(non_snake_case)]
 #![allow(non_upper_case_globals)]
 #![allow(unused_mut)]
 #![allow(dead_code)]
-#![allow(unused_variables)]
 #![allow(path_statements)]
+#![warn(useless_deprecated)]
+#![forbid(const_item_mutation)]
 
 fn main() {
     println!("Hello World");
 }
 ```  
-1. The first 4 lines do nothing except telling the compiler not to display some unnecessary warnings.  
-2. Unlike C++, You do not need to include standard library files separately. Rust includes it automatically.  
-3. In Rust, `fn main()` is the main function which can return any type, but usually nothing is returned.  
-4. `println!()` is the macro used for displaying output in the console. There is another macro called `print!()` which does not add a newline at the end. The equivalent code to `println!()` will be `use std::io; use std::io::write;` at the top and then `print!("\n"); io::stdout().flush().unwrap();` in `main()`.  
+1. The first 8 lines do nothing except telling the compiler to or not to display some unnecessary warnings or errors. These may be useful in the future.  
+3. Unlike C++, You do not need to include standard library files separately. Rust includes it automatically.  
+4. In Rust, `fn main()` is the main function which can return any type, but usually nothing is returned.  
+5. `println!()` is the macro used for displaying output in the console. There is another macro called `print!()` which does not add a newline at the end. The equivalent code to `println!()` will be `use std::io; use std::io::write;` at the top and then `print!("\n"); io::stdout().flush().unwrap();` in `main()`.  
 ## Run the Program  
 Let your name of the program be `filename.rs`. Then use the following command to compile it.  
 ```cmd
