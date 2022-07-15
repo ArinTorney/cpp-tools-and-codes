@@ -1,9 +1,11 @@
 # Rust Tutorial  
 ## What is Rust?  
-Rust is an object based (inheritence is not possible but can be made possible to some extent with hacks), functional and procedural programming language. Some of its common aspects are:  
+Rust is an object based, functional and procedural programming language. Some of its common aspects are:  
 1. Good level of flexibility and features: Rust is very flexible, and can work at low level as well as high level, which is why using it in operating system kernels is started. Rust supports anonymous functions, multithreading, regular expressions, containers, tuples, partial support for duck typing (`any`, `option`), automatic type deduction, networking and so on. Rust is directly compiled to native binary code, and so it adds to security of the application (binary executables are more difficult to reverse engineer), and also performance. It can also be used with static and dynamic libraries but it is overly complicated.  
-2. Interoperability with C: Rust can relatively easily interact with C than other high level programming languages, except for C++ though, which is amost a superset of C.  
-3. Growing community:Rust does not have a large community, but the community is growing. Wrappers to C and C++ APIs and libraries like OpenGL, OpenAL soft are constantly being made. Some examples include jeremyletang/rust-sfml (SFML)(C++), Rust-SDL2/rust-sdl2 (SDL)(C), mxpv/stb (stb)(C), godot-rust/godot-rust (Godot)(C++, C# and GDScript), not-fl3/bulletrs (Bullet)(C++ and Python), kens-gelsoft/wxRust (wxWidgets)(C++) etc.  
+2. Interoperability with C: Rust can relatively easily interact with C than other high level programming languages, except for C++ though, which is almost a superset of C, and Objective C, which is a superset of C.  
+3. Growing community: Rust does not have a large community, but the community is growing. Wrappers to C and C++ APIs and libraries like OpenGL, OpenAL soft are constantly being made. Some examples include jeremyletang/rust-sfml (SFML)(C++), Rust-SDL2/rust-sdl2 (SDL)(C), mxpv/stb (stb)(C), godot-rust/godot-rust (Godot)(C++, C# and GDScript), not-fl3/bulletrs (Bullet)(C++ and Python), kens-gelsoft/wxRust (wxWidgets)(C++) etc.  
+## Why was Rust Made  
+Rust was made as a safer alternative to C and C++. Any possibly unsafe code involving data structures like raw pointers or C function wrappers must be explicitly marked unsafe. Rust allows for some high level programming features through some possibly ugly way.  
 ## Requirements for this Tutorial:
 1. Rust 1.62.0 Complete: Installation instructions are available clear enough on many websites, including Rust's official websites.  
 2. Text Editor  
