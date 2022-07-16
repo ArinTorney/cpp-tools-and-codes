@@ -13,7 +13,7 @@ There can be various choices on how to choose a text editor, and the ultimate pr
 ### Themes: ~3,000 written in JSON  
 ### Manage Packages and Themes: Packages, Themes and Install tabs in Settings View  
 ### UI: Graphical  
-This is a cross platform code editor written in Electron which has a highly customisable user interface and is highly extensible and has a large community.  It has a huge set of features like Git and GitHub integration, snippets, autocomplete, markdown preview, settings GUI etc. coming inbuilt through preinstalled packages. Packages add a good amount of functionality, which adds a lot of features in it, like keybindings, linting, syntax, live server, tabbed terminal, color picker, formatting JavaScript, markdown to PDF etc. and themes add style to its user interface. Its user interface is good, with a classic menu layout with File, Edit, View, Selection, Find, Packages and Help tabs and at the left a pane to manage project files. Ctrl-Shift-P opens command palette.  
+This is a cross platform code editor written in Electron which has a highly customisable user interface and is highly extensible and has a large community.  It has a huge set of features like Git and GitHub integration, snippets, autocomplete, markdown preview, settings GUI etc. coming inbuilt through preinstalled packages. Packages add a good amount of functionality, which adds a lot of features in it, like keybindings, linting, syntax, live server, tabbed terminal, color picker, formatting JavaScript, markdown to PDF etc. and themes add style to its user interface. Its user interface is good, with a classic menu layout with File, Edit, View, Selection, Find, Packages and Help menus and at the left a pane to manage project files. Ctrl-Shift-P opens command palette.  
 ### Note: Sadly such a good editor and all its packages will be archived on December 15 2022 in favour of Visual Studio Code, vscode.dev and GitHub Codespaces.  
 ## Visual Studio Code  
 ### Written in: TypeScript, JavaScript  
@@ -26,7 +26,7 @@ This is a cross platform code editor written in Electron which has a highly cust
 ### Extensions: ~30,000 written in JavaScript and TypeScript  
 ### Manage Extensions: Extensions tab in left ribbon  
 ### UI: Graphical  
-This is a cross platform code editor written in Electron which has a very customisable user interface and is very extensible (both comparable to but not as much as Atom) and has a large community (larger than Atom). It has many features like Git and GitHub Integration (less than Atom), tabbed terminal, autocomplete, settings GUI etc. coming inbuilt. Extensions add a good amount of functionality, which adds a lot of features in it, like keybindings, themes, linting, live server, intellisense, color picker, formatting code, building program, markdown preview, markdown to PDF etc. Its user interface is excellent with a styled menu layout with File, Edit, Selection, View, Go, Run, Terminal and Help tabs and at the left a ribbon with options to manage extensions, project files, git repositories and editor settings. F1 key or Ctrl-Shift-P opens command palette.  
+This is a cross platform code editor written in Electron which has a very customisable user interface and is very extensible (both comparable to but not as much as Atom) and has a large community (larger than Atom). It has many features like Git and GitHub Integration (less than Atom), tabbed terminal, autocomplete, settings GUI etc. coming inbuilt. Extensions add a good amount of functionality, which adds a lot of features in it, like keybindings, themes, linting, live server, intellisense, color picker, formatting code, building program, markdown preview, markdown to PDF etc. Its user interface is excellent with a styled menu layout with File, Edit, Selection, View, Go, Run, Terminal and Help menus and at the left a ribbon with options to manage extensions, project files, git repositories and editor settings. F1 key or Ctrl-Shift-P opens command palette.  
 ## Sublime Text  
 ### Written in: C++, Python (according to Wikipedia)  
 ### Owner: Sublime HQ Proprietary Ltd.  
@@ -38,7 +38,7 @@ This is a cross platform code editor written in Electron which has a very custom
 ### Packages: ~2,500 written in Python as .sublime-package(zip), .sublime-theme(JSON), .sublime-color-scheme  
 ### Manage Packages: Package Control  
 ### UI: Graphical  
-This is a cross platform code editor written in C++ and Python (according to Wikipedia, since no source available) which is extraordinarily fast for a graphical editor with great useful features and has a big community. Despite being proprietary, it is very extensible. Packages add a good amount of functionality, which adds a lot of features in it, like themes, color schemes, syntax, autocomplete, linting, live server, markdown support, formatting code, sidebar enhancements, color picker etc. The key bindings can be customised using a JSON file. its user interface is a fair one with a classic menu layout with File, Edit, Selection, Find, View, Goto, Tools, Project, Preferences and Help tabs and at the left a pane to manage project files.  
+This is a cross platform code editor written in C++ and Python (according to Wikipedia, since no source available) which is extraordinarily fast for a graphical editor with great useful features and has a big community. Despite being proprietary, it is very extensible. Packages add a good amount of functionality, which adds a lot of features in it, like themes, color schemes, syntax, autocomplete, linting, live server, markdown support, formatting code, sidebar enhancements, color picker etc. The key bindings can be customised using a JSON file. its user interface is a fair one with a classic menu layout with File, Edit, Selection, Find, View, Goto, Tools, Project, Preferences and Help menus and at the left a pane to manage project files.  
 ## Vim  
 ### Written in: C  
 ### Owner: Bram Moolenaar  
@@ -75,12 +75,13 @@ Micro, written in Go, is an improvement over GNU Nano, which in turn is an impro
 ### Written in: C  
 ### Owner: GNU  
 ### License: GPLv3+  
-### Speed: Fast  
+### Speed: Medium to Fast  
 ### Projects: Via plugin  
 ### Multiple Tabs: Yes  
 ### Plugins: written in Emacs Lisp  
-### UI: Text based  
-GNU Emacs is possibly the only popular editor in Emacs family being developed and used. Others like Gosling Emacs, XEmacs are no longer being developed. This editor is praised for being highly extensible.
+### Manage Plugins: For GnuELPA ESC+X (M-x) list-packages, others like MELPA, ELPA edit ~/.emacs.d/init.el (%HOME%/.emacs.d/init.el on Windows) (~/.emacs or ~/.emacs.el or ~/.config/emacs/init.el can also be used) and then ESC+X (M-x) list-packages  
+### UI: Text based and Graphical  
+GNU Emacs is possibly the only popular editor in Emacs family being developed and used. Others like Gosling Emacs, XEmacs are no longer being developed. This editor is praised for being highly extensible. It also has a good user interface, and the command line and graphical ones resemble each other very much, with the same tabbed layout, the same command palette and the same options. The menu bar has options File, Edit, Options, Buffers, Tools and Help.  
 ## BlueFish  
 ### -----TODO-----
 ## Geany  
