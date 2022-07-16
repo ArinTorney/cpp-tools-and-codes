@@ -79,7 +79,7 @@ Micro, written in Go, is an improvement over GNU Nano, which in turn is an impro
 ### Projects: Via plugin  
 ### Multiple Tabs: Yes  
 ### Plugins: written in Emacs Lisp  
-### Manage Plugins: For GnuELPA ESC+X (M-x) list-packages, others like MELPA, ELPA edit ~/.emacs.d/init.el (%HOME%/.emacs.d/init.el on Windows) (~/.emacs or ~/.emacs.el or ~/.config/emacs/init.el can also be used) and then ESC+X (M-x) list-packages  
+### Manage Plugins: For GnuELPA ESC+X (M-x) list-packages, others like MELPA, ELPA edit \~/.emacs.d/init.el (%HOME%/.emacs.d/init.el on Windows) (\~/.emacs or ~/.emacs.el or ~/.config/emacs/init.el can also be used) and then ESC+X (M-x) list-packages  
 ### UI: Text based and Graphical  
 GNU Emacs is possibly the only popular editor in Emacs family being developed and used. Others like Gosling Emacs, XEmacs are no longer being developed. This editor is praised for being highly extensible. It also has a good user interface, and the command line and graphical ones resemble each other very much, with the same tabbed layout, the same command palette and the same options. The menu bar has options File, Edit, Options, Buffers, Tools and Help.  
 ## BlueFish  
