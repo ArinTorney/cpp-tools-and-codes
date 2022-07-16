@@ -18,7 +18,7 @@ This is a cross platform code editor written in Electron which has a highly cust
 ## Visual Studio Code  
 ### Written in: TypeScript, JavaScript  
 ### Owner: Microsoft  
-### License: Binaries: Microsoft Software License Terms, Source: MIT License, VSCodium unofficial builds: MIT License  
+### License: Binaries: Microsoft Software License Terms for Microsoft Visual Studio Code (nonFOSS, but allows commercial development free of cost), Source: MIT License, VSCodium unofficial builds: MIT License, Visual Studio Marketplace Extensions: _as per the developer of the extension_, OpenVSX Unofficial Marketplace: EPL-2.0  
 ### Speed: Medium  
 ### Supported Programming Language Syntaxes (by default): 75  
 ### Projects: Yes  
