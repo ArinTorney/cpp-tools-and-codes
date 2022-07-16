@@ -11,6 +11,7 @@ There can be various choices on how to choose a text editor, and the ultimate pr
 ### Multiple Tabs: Yes  
 ### Packages: ~12,500 written in JavaScript  
 ### Themes: ~3,000 written in JSON  
+### Manage Packages and Themes: Packages, Themes and Install tabs in Settings View  
 ### UI: Graphical  
 This is a cross platform code editor written in Electron which has a highly customisable user interface and is highly extensible and has a large community.  It has a huge set of features like Git and GitHub integration, snippets, autocomplete, markdown preview, settings GUI etc. coming inbuilt through preinstalled packages. Packages add a good amount of functionality, which adds a lot of features in it, like keybindings, linting, syntax, live server, tabbed terminal, color picker, formatting JavaScript, markdown to PDF etc. and themes add style to its user interface. Its user interface is good, with a classic menu layout with File, Edit, View, Selection, Find, Packages and Help tabs and at the left a pane to manage project files. Ctrl-Shift-P opens command palette.  
 ### Note: Sadly such a good editor and all its packages will be archived on December 15 2022 in favour of Visual Studio Code, vscode.dev and GitHub Codespaces.  
@@ -23,6 +24,7 @@ This is a cross platform code editor written in Electron which has a highly cust
 ### Projects: Yes  
 ### Multiple Tabs: Yes  
 ### Extensions: ~30,000 written in JavaScript and TypeScript  
+### Manage Extensions: Extensions tab in left ribbon  
 ### UI: Graphical  
 This is a cross platform code editor written in Electron which has a very customisable user interface and is very extensible (both comparable to but not as much as Atom) and has a large community (larger than Atom). It has many features like Git and GitHub Integration (less than Atom), tabbed terminal, autocomplete, settings GUI etc. coming inbuilt. Extensions add a good amount of functionality, which adds a lot of features in it, like keybindings, themes, linting, live server, intellisense, color picker, formatting code, building program, markdown preview, markdown to PDF etc. Its user interface is excellent with a styled menu layout with File, Edit, Selection, View, Go, Run, Terminal and Help tabs and at the left a ribbon with options to manage extensions, project files, git repositories and editor settings. F1 key or Ctrl-Shift-P opens command palette.  
 ## Sublime Text  
@@ -34,6 +36,7 @@ This is a cross platform code editor written in Electron which has a very custom
 ### Projects: Yes  
 ### Multiple Tabs: Yes  
 ### Packages: ~2,500 written in Python as .sublime-package(zip), .sublime-theme(JSON), .sublime-color-scheme  
+### Manage Packages: Package Control  
 ### UI: Graphical  
 This is a cross platform code editor written in C++ and Python (according to Wikipedia, since no source available) which is extraordinarily fast for a graphical editor with great useful features and has a big community. Despite being proprietary, it is very extensible. Packages add a good amount of functionality, which adds a lot of features in it, like themes, color schemes, syntax, autocomplete, linting, live server, markdown support, formatting code, sidebar enhancements, color picker etc. The key bindings can be customised using a JSON file. its user interface is a fair one with a classic menu layout with File, Edit, Selection, Find, View, Goto, Tools, Project, Preferences and Help tabs and at the left a pane to manage project files.  
 ## Vim  
@@ -44,7 +47,7 @@ This is a cross platform code editor written in C++ and Python (according to Wik
 ### Projects: NerdTree plugin  
 ### Multiple Tabs: Yes  
 ### Plugins: ~19,000 written in Vim script  
-### Manage Plugins: vim-plug, pathogen, vundle etc.
+### Manage Plugins: vim-plug, pathogen, vundle etc.  
 ### UI: Text based  
 This is a cross platform code editor written in C, as an improved version of Vi editor that is backwards compatible with it. This is one reason why it is very extensible, even more than Atom. Plugins can be and are written for everything, from simple commandlets to git integration, code completion, color picker, formatting code, snippets, linting etc. It is built to be used with keyboard, although there is a graphical version of it called gVim.  
 ## Neovim  
@@ -55,7 +58,7 @@ This is a cross platform code editor written in C, as an improved version of Vi 
 ### Projects: project.nvim plugin  
 ### Multiple Tabs: Yes  
 ### Plugins: written in Vim script and Lua, all (at least almost all) Vim plugins are compatible  
-### Manage Plugins: (Vim script) same as Vim, (Lua) packer, paq-nvim, NvChad etc.
+### Manage Plugins: (Vim script) same as Vim, (Lua) packer, paq-nvim, NvChad etc.  
 ### UI: Text based  
 This is a cross platform code editor written in C, as an improved version of Vim editor. It is almost backwards compatible with Vim, and is slowly growing. It is highly extensible, maybe even the most extensible code editor. Like Vim, it uses plugin managers, the most popular of which is vim-plug. It can do everything with the help of plugins, everything which other editors like Visual Studio Code and Atom can do.  
 ## Micro  
