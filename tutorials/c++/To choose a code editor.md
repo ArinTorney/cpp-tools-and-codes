@@ -44,6 +44,7 @@ This is a cross platform code editor written in C++ and Python (according to Wik
 ### Projects: NerdTree plugin  
 ### Multiple Tabs: Yes  
 ### Plugins: ~19,000 written in Vim script  
+### Manage Plugins: vim-plug, pathogen, vundle etc.
 ### UI: Text based  
 This is a cross platform code editor written in C, as an improved version of Vi editor that is backwards compatible with it. This is one reason why it is very extensible, even more than Atom. Plugins can be and are written for everything, from simple commandlets to git integration, code completion, color picker, formatting code, snippets, linting etc. It is built to be used with keyboard, although there is a graphical version of it called gVim.  
 ## Neovim  
@@ -54,6 +55,7 @@ This is a cross platform code editor written in C, as an improved version of Vi 
 ### Projects: project.nvim plugin  
 ### Multiple Tabs: Yes  
 ### Plugins: written in Vim script and Lua, all (at least almost all) Vim plugins are compatible  
+### Manage Plugins: (Vim script) same as Vim, (Lua) packer, paq-nvim, NvChad etc.
 ### UI: Text based  
 This is a cross platform code editor written in C, as an improved version of Vim editor. It is almost backwards compatible with Vim, and is slowly growing. It is highly extensible, maybe even the most extensible code editor. Like Vim, it uses plugin managers, the most popular of which is vim-plug. It can do everything with the help of plugins, everything which other editors like Visual Studio Code and Atom can do.  
 ## Micro  
