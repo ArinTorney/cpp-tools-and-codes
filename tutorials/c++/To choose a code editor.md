@@ -164,3 +164,4 @@ GNU Nano, written in C, which in turn is an improvement over Pico, a console bas
 9. VS Color Picker (A tiny & smart color picker for web developer.) (lihui)
 10. Code Runner (Run C, C++, Java, JS, PHP, Python, Perl, Ruby, Go, Lua, Groovy, PowerShell, CMD, BASH, F#, C#, VBScript, TypeScript, CoffeeScript, Scala, Swift, Julia, Crystal, OCaml, R, AppleScript, Elixir, VB.NET, Clojure, Haxe, Obj-C, Rust, Racket, Scheme, AutoHotkey, AutoIt, Kotlin, Dart, Pascal, Haskell, Nim) (Jun Han)  
 11. Pylance (A performant, feature-rich language server for Python in VS Code) (Microsoft)  
+12. Python (Intellisense (Pylance), Linting, Debugging (multi-threaded, remote), Jupyter Notebooks, code formatting, refactoring, unit tests and more.) (Microsoft)  
