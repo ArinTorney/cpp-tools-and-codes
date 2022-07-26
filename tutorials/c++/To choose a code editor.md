@@ -151,7 +151,7 @@ GNU Nano, written in C, which in turn is an improvement over Pico, a console bas
 ### -----TODO-----  
 ## vscode.dev  
 ### -----TODO-----  
-# Recommended Set of Extensions (or Plugins)  
+# Recommended Set of Extensions (or Plugins or Packages)  
 ## Visual Studio Code  
 1. C/C++ (C/C++ Intellisense, debugging and code browsing) (Microsoft)  
 2. Rust (Rust for Visual Studio Code (powered by Rust Language Server/Rust Analyzer), Provides lints, code completion and navigation, formatting and more.) (THe Rust Programming Language)  
