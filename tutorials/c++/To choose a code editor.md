@@ -118,7 +118,7 @@ This is a code editor for Linux and MacOS (and optionally for Windows through MS
 ### Multiple Tabs: Yes  
 ### Plugins: ~105 written in C and C++ as .dll  
 ### UI: Graphical  
-This is a code editor for Windows (and optionally for Linux through Wine) written in C++, and is simple yet powerful and very fast. There are very few plugins which are merely some dynamic link libraries. Others have to be installed as DLLs separately and manually added, which has to be done in the 64-bit version to get a community mmaintained color picker (there is no inbuilt). It has a simple classic user interface with a classic menu layout with File, Edit, Search, View, Encoding, Language, Settings, Tools, Macro, Run, Plugins, Window and ? tabs and below that some icon shortcuts to them.  
+This is a code editor for Windows (and optionally for Linux through Wine) written in C++, and is simple yet powerful and very fast. There are very few plugins which are merely some dynamic link libraries. Others have to be installed as DLLs separately and manually added, which has to be done in the 64-bit version to get a community maintained color picker (there is no inbuilt). It has a simple classic user interface with a classic menu layout with File, Edit, Search, View, Encoding, Language, Settings, Tools, Macro, Run, Plugins, Window and ? tabs and below that some icon shortcuts to them.  
 ## Notepadqq  
 ### Written in: C++, JavaScript  
 ### Owner: Daniel di Sarli  
