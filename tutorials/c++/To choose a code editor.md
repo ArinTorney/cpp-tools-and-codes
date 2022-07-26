@@ -64,7 +64,7 @@ This is a cross platform code editor written in C, as an improved version of Vim
 ## Micro  
 ### Written in: Go  
 ### Owner: Zachary Yedidia  
-### License: MIT License, Go License (Golang), Apache License 2.0 (gdamore/encoding, zyedidia/tcell), BSD 3-clause (zyedidia/clipboard, golang/x), MPL (gopher-luar)  
+### License: MIT License, Go License (Go), Apache License 2.0 (gdamore/encoding, zyedidia/tcell), BSD 3-clause (zyedidia/clipboard, golang/x), MPL (gopher-luar)  
 ### Speed: Fast  
 ### Projects: No  
 ### Multiple Tabs: Yes  
