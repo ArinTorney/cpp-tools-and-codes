@@ -112,7 +112,7 @@ This is a code editor for Linux and MacOS (and optionally for Windows through MS
 ## Notepad++  
 ### Written in: C++  
 ### Owner: Don Ho  
-### License: GPLv3+, GPv2+ (until v7.9.2)  
+### License: GPLv3+, GPLv2+ (until v7.9.2)  
 ### Supported Programming Language Syntaxes (by default): 72  
 ### Projects: No  
 ### Multiple Tabs: Yes  
