@@ -151,3 +151,13 @@ GNU Nano, written in C, which in turn is an improvement over Pico, a console bas
 ### -----TODO-----  
 ## vscode.dev  
 ### -----TODO-----  
+# Recommended Set of Extensions (or Plugins)  
+## Visual Studio Code  
+1. C/C++ (C/C++ Intellisense, debugging and code browsing) (Microsoft)  
+2. Rust (Rust for Visual Studio Code (powered by Rust Language Server/Rust Analyzer), Provides lints, code completion and navigation, formatting and more.) (THe Rust Programming Language)  
+3. Rust Syntax (Dusty Pomerleau)  
+4. Markdown PDF (yzane)  
+5. Markdown Preview GitHub Styling (Matt Bierner)  
+6. Live Server Preview (negokaz)  
+7. IntelliCode (Microsoft)  
+8. HTML CSS Support (ecrnel)  
