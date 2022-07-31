@@ -60,7 +60,7 @@ This is a cross platform code editor written in C, as an improved version of Vi 
 ### Plugins: written in Vim script and Lua, all (at least almost all) Vim plugins are compatible  
 ### Manage Plugins: (Vim script) same as Vim + \~/.config/nvim/init.vim (\~/AppData/Local/nvim/init.vim on Windows), (Lua) packer, paq-nvim, NvChad etc. + /.config/init.lua (\~/AppData/Local/nvim/init.lua on Windows)  
 ### UI: Text based  
-This is a cross platform code editor written in C, as an improved version of Vim editor. It is almost backwards compatible with Vim, and is slowly growing. It is highly extensible, maybe even the most extensible code editor. Like Vim, it uses plugin managers, the most popular of which is vim-plug. It can do everything with the help of plugins, everything which other editors like Visual Studio Code and Atom can do.  
+This is a cross platform code editor written in C, as an improved version of Vim editor. It is almost backwards compatible with Vim, and is slowly growing. It is highly extensible, maybe even the most extensible code editor. Like Vim, it uses plugin managers, the most popular of which is vim-plug. It can do everything with the help of plugins, everything which other editors like Visual Studio Code and Atom can do. Neovim also ships with nvim-qt, which can be used as a replacement to modern terminals for neovim.  
 ## Micro  
 ### Written in: Go  
 ### Owner: Zachary Yedidia  
