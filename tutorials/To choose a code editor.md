@@ -55,7 +55,7 @@ This is a cross platform code editor written in C, as an improved version of Vi 
 ### Owner: Thiago de Arruda  
 ### License: Neovim License  
 ### Speed: Fast  
-### Projects: project.nvim plugin  
+### Projects: project.nvim, NerdTree etc. plugin (or use the default NetRw)  
 ### Multiple Tabs: Yes  
 ### Plugins: written in Vim script and Lua, all (at least almost all) Vim plugins are compatible  
 ### Manage Plugins: (Vim script) same as Vim + \~/.config/nvim/init.vim (\~/AppData/Local/nvim/init.vim on Windows), (Lua) packer, paq-nvim, NvChad etc. + /.config/init.lua (\~/AppData/Local/nvim/init.lua on Windows)  
