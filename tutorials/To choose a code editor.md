@@ -89,15 +89,17 @@ GNU Emacs is possibly the only popular editor in Emacs family being developed an
 ## Recommendation
 ### Graphical  
 1. Visual Studio Code  
-With all the appropriate extensions, which take the right advantage of its features like for programming, it can become almost an IDE of a programming language capable of intellisense, debugging, linting, building, prettifying and much more.  
+With all the appropriate extensions, which take the right advantage of its features for programming, it can become almost an IDE of a programming language capable of intellisense, debugging, linting, building, prettifying and much more.  
 2. Atom  
 By far being possibly the most extensible graphical text editor (not command line text editor with(out) a GUI), with all the appropriate extensions, it can do almost everything Visual Studio Code can, maybe even more, except for maybe intellisense.  
 3. Sublime Text  
 Even though it is source unavailable proprietary, it is pretty extensible, and has a bunch of builtin features too, so it can do almost everything Atom and Visual Studio Code can do.
 ### Text based  
 1. Neovim  
-2. Emacs  
-3. Vim
+With all its appropriate extensions, Neovim can become a replacement for Visual Studio Code or Atom, with its extreme extensibility and flexibility. It has extremely good compatibility with Vim, as well as carries a whole lot of new features.  
+3. Emacs  
+4. Vim  
+This editor is just like a subset of Neovim, and is just a bit lesser than it. It has a somewhat larger community than Neovim.  
 # Simple  
 ## Gedit  
 ### Written in: C  
