@@ -142,17 +142,6 @@ This is an almost complete replacement to Notepad++ for Linux and MacOS, with sl
 GNU Nano, written in C, which in turn is an improvement over Pico, a console based text editor. But this editor seems to be somewhat buggy.  
 ## Brackets  
 ### -----TODO-----  
-# Cloud  
-## OnlineGDB  
-### -----TODO-----  
-## Code Anywhere  
-### -----TODO-----  
-## Replit  
-### -----TODO-----  
-## Codesandbox  
-### -----TODO-----  
-## vscode.dev  
-### -----TODO-----  
 # Recommended Set of Extensions (or Plugins or Packages)  
 ## Visual Studio Code  
 1. C/C++ (C/C++ Intellisense, debugging and code browsing) (Microsoft)  
@@ -179,3 +168,9 @@ GNU Nano, written in C, which in turn is an improvement over Pico, a console bas
 9. color-picker (Right click or press CMD-SHIFT-C/CTRL-ALT-C to open it.) (thomaslindstrom)  
 10. linter-python (Linter for python files. Lint operation based on pylama application.) (pchomik)  
 11. busy-signal (A package that provides an easy to use API to show your package is performing a task) (steelbrain)  
+--TODO--  
+## Neovim  
+1. vim-airline/vim-airline (lean & mean status/tabline for vim that's light as air)  
+2. preservim/nerdtree (A tree explorer plugin for vim.)  
+3. tpope/vim-commentary (commentary.vim: comment stuff out)
+--TODO--
