@@ -172,5 +172,5 @@ GNU Nano, written in C, which in turn is an improvement over Pico, a console bas
 ## Neovim  
 1. vim-airline/vim-airline (lean & mean status/tabline for vim that's light as air)  
 2. preservim/nerdtree (A tree explorer plugin for vim.)  
-3. tpope/vim-commentary (commentary.vim: comment stuff out)
---TODO--
+3. tpope/vim-commentary (commentary.vim: comment stuff out)  
+--TODO--  
