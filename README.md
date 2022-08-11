@@ -1,5 +1,5 @@
 # cpp-and-rust-tools-and-codes
-This is nothing, just a bunch of C++ codes to help programming.  
+This is nothing, just a bunch of C++ and Rust codes and guides  to help programming.  
 # Projects  
 ### C++
 1. Primitive Duck Type (./dynamictyping) (Under Apache 2.0)  
