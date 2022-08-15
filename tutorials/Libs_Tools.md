@@ -8,7 +8,7 @@ Some popular tools and libraries
 *: License is open source, but does not allow static linking.<br>
 **: License is open source, but does not allow distributing executable under a different license.<br>
 ***: License is not open source.<br>
-a: Nana supports only Windows and X11. It does not support Wayland and MacOS<br>
+a: Nana supports only Windows and X11. It does not support Wayland and MacOS.<br>
 b: FreeGLUT does not support native Cocoa on MacOS and uses XQuartz.<br>
 c: MacOS has deprecated OpenGL and removed OpenCL.  
 d: Vulkan is not supported on MacOS.
