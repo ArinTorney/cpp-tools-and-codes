@@ -1,15 +1,17 @@
 Some popular tools and libraries  
 | |Console|GUI (native)|GUI (themed)|2D Game|3D Game|3D Rendering|Audio|  
 |-|-|-|-|-|-|-|-|  
-|C++|Curses, Linenoise, Crossline|wxWidgets, FLTK,<br>Nana<sup>a</sup>|Qt\*,<br>GTK\* (and optionally gtkmm\*)|SDL, SFML, Allegro|Godot, Panda3D|Irrlicht, Ogre,<br>FreeGLUT<sup>b</sup>/GLFW+GLEW (OpenGL<sup>c</sup>), Vulkan<sup>d</sup>|OpenAL Soft\*, irrKlang\*\*\*|  
-|Python|Curses, Readline\*\*|tkinter, wxPython|PyGTK\*, PyQt\*\*|Pygame|Godot, Panda3D, Ursina|PyOpenGL (Legacy OpenGL),<br>GLFW+PyGLEW (Modern OpenGL<sup>c</sup>), PyVulkan<sup>d</sup>|PyAudio, Mingus|  
+|C++|Curses, Linenoise, Crossline|wxWidgets<sup>a</sup>, FLTK,<br>Nana<sup>b</sup>|Qt\*,<br>GTK\* (and optionally gtkmm\*)|SDL, SFML, Allegro|Godot, Panda3D|Irrlicht, Ogre,<br>FreeGLUT<sup>c</sup>/GLFW+GLEW (OpenGL<sup>d</sup>), Vulkan<sup>e</sup>|OpenAL Soft\*, irrKlang\*\*\*|  
+|Python|Curses, Readline\*\*|tkinter, wxPython<sup>a</sup>|PyGTK\*, PyQt\*\*|Pygame|Godot, Panda3D, Ursina|PyOpenGL (Legacy OpenGL<sup>f</sup>),<br>GLFW+PyGLEW (Modern OpenGL<sup>d</sup>), PyVulkan<sup>e</sup>|PyAudio, Mingus|  
 
 <sub>
 *: License is open source, but does not allow static linking.<br>
 **: License is open source, but does not allow distributing executable under a different license.<br>
 ***: License is not open source.<br>
-a: Nana supports only Windows and X11. It does not support Wayland and MacOS.<br>
-b: FreeGLUT does not support native Cocoa on MacOS and uses XQuartz.<br>
-c: MacOS has deprecated OpenGL and removed OpenCL.  
-d: Vulkan is not supported on MacOS.
+a: wxWidgets does not use native API on Linux. It uses either GTK, Qt or Motif. A port for Xorg is being developed, though. Also, wxWidgets has poor Wayland support.<br>
+b: Nana supports only Windows and X11. It does not support Wayland and MacOS.<br>
+c: FreeGLUT does not support native Cocoa on MacOS and uses XQuartz.<br>
+d: MacOS has deprecated OpenGL and removed OpenCL.<br>
+e: Vulkan is not supported on MacOS.<br>
+f: Legacy OpenGL is deprecated, uses deprecated concepts, and very few vendors support it.
 </sub>
