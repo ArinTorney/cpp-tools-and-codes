@@ -2,7 +2,7 @@ Some popular tools and libraries
 | |Console|GUI (native)|GUI (themed)|2D Game|3D Game|3D Rendering|Audio|Image Processing|CPU and GPU Computation|  
 |-|-|-|-|-|-|-|-|-|-|  
 |C++|Curses, Linenoise, Crossline|wxWidgets<sup>a</sup>, FLTK,<br>Nana<sup>b</sup>|Qt\*,<br>GTK\* (and optionally gtkmm\*)|SDL, SFML, Allegro|Godot, Panda3D|Irrlicht, Ogre,<br>FreeGLUT<sup>c</sup>/GLFW+GLEW (OpenGL<sup>d</sup>), Vulkan<sup>e</sup>|OpenAL Soft\*, irrKlang\*\*\*|Magick++, stb|OpenCL<sup>d</sup>|  
-|Python|Curses, Readline\*\*|tkinter, wxPython<sup>a</sup>|PyGTK\*, PyQt\*\*|Pygame, PySDL2|Godot, Panda3D, Ursina|PyOpenGL (Legacy OpenGL<sup>f</sup>),<br>GLFW+PyGLEW (Modern OpenGL<sup>d</sup>), PyVulkan<sup>e</sup>|PyAudio, Mingus|wand|PyOpenCL<sup>d</sup>|  
+|Python|Curses, Readline\*\*|tkinter, wxPython<sup>a</sup>|PyGTK\*, PyQt\*\*|Pygame, Pyglet, PySDL2|Godot, Panda3D, Ursina|PyOpenGL (Legacy OpenGL<sup>f</sup>),<br>GLFW+PyGLEW (Modern OpenGL<sup>d</sup>), PyVulkan<sup>e</sup>|PyAudio, Mingus|wand|PyOpenCL<sup>d</sup>|  
 <sup>
 *: License is open source, but does not allow static linking.<br>
 **: License is open source, but does not allow distributing executable under a different license.<br>
