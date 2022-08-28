@@ -1,9 +1,9 @@
 Some popular tools and libraries  
 | |Console|GUI (native)|GUI (themed)|2D Game|3D Game|3D Rendering|Audio|Image Processing|CPU and GPU Computation|Threading|  
 |-|-|-|-|-|-|-|-|-|-|-|  
-|C++|Curses, Linenoise, Crossline|wxWidgets<sup>a</sup>, FLTK|Nana<sup>b</sup>, Qt\*,<br>GTK\* (and optionally gtkmm\*)|SDL, SFML, Allegro|Godot, Panda3D, Unreal***|Irrlicht, Ogre,<br>FreeGLUT<sup>c</sup>/GLFW+GLEW (OpenGL<sup>d</sup>), Vulkan<sup>e</sup>|OpenAL Soft\*, OpenAL\*\*\*<sup>f</sup>, irrKlang\*\*\*|Magick++, stb|OpenCL<sup>d</sup>, OpenGL Compute Shaders<sup>dg</sup>|Standard Library (`std::thread`, `std::mutex`, `std::atomic`), Boost.Thread, Native (Win32 and POSIX Threads), OpenMP<sup>h</sup>|  
+|C++|Curses, Linenoise, Crossline|wxWidgets<sup>a</sup>|FLTK, Nana<sup>b</sup>, Qt\*,<br>GTK\* (and optionally gtkmm\*)|SDL, SFML, Allegro|Godot, Panda3D, Unreal***|Irrlicht, Ogre,<br>FreeGLUT<sup>c</sup>/GLFW+GLEW (OpenGL<sup>d</sup>), Vulkan<sup>e</sup>|OpenAL Soft\*, OpenAL\*\*\*<sup>f</sup>, irrKlang\*\*\*|Magick++, stb|OpenCL<sup>d</sup>, OpenGL Compute Shaders<sup>dg</sup>|Standard Library (`std::thread`, `std::mutex`, `std::atomic`), Boost.Thread, Native (Win32 and POSIX Threads), OpenMP<sup>h</sup>|  
 |Python|Curses, Readline\*\*|tkinter, wxPython<sup>a</sup>|PyGTK\*, PyQt\*\*|Pygame, Pyglet, PySDL2|Godot, Panda3D, Ursina|PyOpenGL (Legacy OpenGL<sup>i</sup>),<br>GLFW+PyGLEW (Modern OpenGL<sup>d</sup>), PyVulkan<sup>e</sup>|PyAudio, Mingus|wand|PyOpenCL<sup>d</sup>||  
-|Rust|Console|Azul, fltk-rs|gtk-rs, iced|||||||Standard Library|  
+|Rust|Console|Azul|fltk-rs, gtk-rs, iced|||||||Standard Library|  
 |Java||AWT|Swing|LWJGL||||||`Thread` class|  
 <sup>
 *: License is open source, but does not allow static linking.<br>
