@@ -70,7 +70,6 @@ int main() {
         t1.join();
         t2.join();
         t3.join();
-	std::cout << " ";
         if (std::chrono::system_clock::now() >= now + std::chrono::milliseconds(250)) {
             break;
 	}
