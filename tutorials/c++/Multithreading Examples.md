@@ -37,7 +37,7 @@ int main()
     return 0;
 }
 ```
-This one is an improved version, which only goes on for 1 second. There is a for loop in each thread so that the multithreaded nature is clearly visible.  
+This one is an improved version, which only goes on for 1/4 seconds. There is a for loop in each thread so that the multithreaded nature is clearly visible.  
 ```c++
 #include <iostream>
 #include <thread>
@@ -70,7 +70,7 @@ int main() {
         t1.join();
         t2.join();
         t3.join();
-        if (std::chrono::system_clock::now() >= now + std::chrono::seconds(1)) {
+        if (std::chrono::system_clock::now() >= now + std::chrono::milliseconds(250)) {
             break;
 	}
     }
