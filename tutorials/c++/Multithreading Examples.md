@@ -62,9 +62,8 @@ void f3() {
 }
 
 int main() {
-    bool loop = true;
     auto now = std::chrono::system_clock::now();
-    while (loop) {
+    while (1) {
         std::thread t1(f1);
         std::thread t2(f2);
         std::thread t3(f3);
