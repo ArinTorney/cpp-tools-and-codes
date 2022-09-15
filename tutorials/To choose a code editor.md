@@ -101,14 +101,14 @@ With all its appropriate extensions, Neovim can become a replacement for Visual 
 4. Vim  
 This editor is just like a subset of Neovim, and is just a bit lesser than it. It has a somewhat larger community than Neovim.  
 ## Table  
-||Owner|Written in|License|Customisation|  
-|-|-|-|-|-|  
-|Atom|Microsoft (GitHub)|JavaScript|MIT|Settings->Packages, Settings->Themes, Settings->Install|
-|Visual Studio Code|Microsoft|JavaScript, TypeScript|MIT (Source)<br>Microsoft Software License Terms for Microsoft Visual Studio Code (Microsoft flavoured binaries)<br>MIT License (VSCodium unofficial binaries without access to Marketplace extensions)|Extensions tab|
-|Sublime Text|Sublime HQ Proprietary Ltd.||Trialware with unlimited trial||
-|Neovim|Thiago de Arruda||Neovim License||
-|Emacs|GNU||GPLv3+||
-|Micro|Zachary Yedidia||MIT||
+||Owner|Written in|License|Customisation|Plugin Language|
+|-|-|-|-|-|-|
+|Atom|Microsoft (GitHub)|JavaScript|MIT|Settings->Packages, Settings->Themes, Settings->Install|JavaScript|
+|Visual Studio Code|Microsoft|JavaScript, TypeScript|MIT (Source)<br>Microsoft Software License Terms for Microsoft Visual Studio Code (Microsoft flavoured binaries)<br>MIT License (VSCodium unofficial binaries without access to Marketplace extensions)|Extensions tab|JavaScript, TypeScript|
+|Sublime Text|Sublime HQ Proprietary Ltd.|C++, Python|Trialware with unlimited trial|Packages->Package Control|Python|
+|Neovim|Thiago de Arruda|C|Neovim License|Package Managers: vim-plug, pathogen, vundle etc. (Vim Script), packer, paq-nvim, NvChad etc. (Lua)<br>~/.config/nvim/init.vim (or init.lua) OR  ~/AppData/local/nvim/init.vim (or init.lua)|Vim Script, Lua<br>JavaScript, Python (using modules)|
+|Emacs|GNU|C|GPLv3+|GnuELPA: M-x<br>MELPA, ELPA etc.: ~/.emacs.d/init.el OR %HOME%/.emacs.d/init.el|Emacs Lisp|
+|Micro|Zachary Yedidia|Go|MIT|`> plugin install`|Lua|
 # Simple  
 ## Gedit  
 ### Written in: C  
