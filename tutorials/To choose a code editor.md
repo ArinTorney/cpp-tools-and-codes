@@ -18,7 +18,7 @@ This is a cross platform code editor written in Electron which has a highly cust
 ## Visual Studio Code  
 ### Written in: TypeScript, JavaScript  
 ### Owner: Microsoft  
-### License: Binaries: Microsoft Software License Terms for Microsoft Visual Studio Code (nonFOSS, but allows commercial development free of cost), Source: MIT License, VSCodium unofficial builds: MIT License, Visual Studio Marketplace Extensions: _as per the developer of the extension_, OpenVSX Unofficial Marketplace: EPL-2.0  
+### License: Binaries: Microsoft Software License Terms for Microsoft Visual Studio Code (nonFOSS, but allows commercial development free of cost), Source: MIT License, VSCodium unofficial builds: MIT License, Visual Studio Marketplace Extensions: _as per the developer of the extension_ (proprietary extensions exist), OpenVSX Unofficial Marketplace: EPL-2.0  
 ### Speed: Medium  
 ### Supported Programming Language Syntaxes (by default): 75  
 ### Projects: Yes  
@@ -100,6 +100,15 @@ With all its appropriate extensions, Neovim can become a replacement for Visual 
 3. Emacs  
 4. Vim  
 This editor is just like a subset of Neovim, and is just a bit lesser than it. It has a somewhat larger community than Neovim.  
+## Table  
+||Owner|Written in|License|Plugins/Extensions/Packages/Themes|  
+|-|-|-|-|-|  
+|Atom|Microsoft (GitHub)|JavaScript|MIT||
+|Visual Studio Code|Microsoft|JavaScript, TypeScript|MIT (Source)<br>Microsoft Software License Terms for Microsoft Visual Studio Code (Microsoft flavoured binaries)<br>MIT License (VSCodium unofficial binaries)<br>EPL-2.0 (OpenVSX Unofficial Marketplace)||
+|Sublime Text|Sublime HQ Proprietary Ltd.|Trialware with unlimited trial|||
+|Neovim|||||
+|Emacs|||||
+|Micro|||||
 # Simple  
 ## Gedit  
 ### Written in: C  
