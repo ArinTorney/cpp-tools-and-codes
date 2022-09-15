@@ -101,14 +101,14 @@ With all its appropriate extensions, Neovim can become a replacement for Visual 
 4. Vim  
 This editor is just like a subset of Neovim, and is just a bit lesser than it. It has a somewhat larger community than Neovim.  
 ## Table  
-||Owner|Written in|License|Plugins/Extensions/Packages/Themes|  
+||Owner|Written in|License|Customisation|  
 |-|-|-|-|-|  
-|Atom|Microsoft (GitHub)|JavaScript|MIT||
-|Visual Studio Code|Microsoft|JavaScript, TypeScript|MIT (Source)<br>Microsoft Software License Terms for Microsoft Visual Studio Code (Microsoft flavoured binaries)<br>MIT License (VSCodium unofficial binaries)<br>EPL-2.0 (OpenVSX Unofficial Marketplace)||
-|Sublime Text|Sublime HQ Proprietary Ltd.|Trialware with unlimited trial|||
-|Neovim|||||
-|Emacs|||||
-|Micro|||||
+|Atom|Microsoft (GitHub)|JavaScript|MIT|Settings->Packages, Settings->Themes, Settings->Install|
+|Visual Studio Code|Microsoft|JavaScript, TypeScript|MIT (Source)<br>Microsoft Software License Terms for Microsoft Visual Studio Code (Microsoft flavoured binaries)<br>MIT License (VSCodium unofficial binaries without access to Marketplace extensions)|Extensions tab|
+|Sublime Text|Sublime HQ Proprietary Ltd.||Trialware with unlimited trial||
+|Neovim|Thiago de Arruda||Neovim License||
+|Emacs|GNU||GPLv3+||
+|Micro|Zachary Yedidia||MIT||
 # Simple  
 ## Gedit  
 ### Written in: C  
