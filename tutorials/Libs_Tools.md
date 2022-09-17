@@ -9,7 +9,7 @@ Some popular tools and libraries
 *: License is open source, but does not allow static linking.<br>
 **: License is open source, but does not allow distributing executable under a different license.<br>
 ***: License is not open source.<br>
-a: wxWidgets does not use native API on Linux. It uses either GTK, Qt or Motif. A port for Xorg is being developed, though, but is not actively developed. Also, wxWidgets has poor Wayland support.<br>
+a: wxWidgets does not use native API on Linux. It uses either GTK, Qt or Motif. A port for Xorg is being developed, though, but is not actively developed.<br>
 b: Nana supports only Windows and Xorg. It does not support Wayland and MacOS.<br>
 c: FreeGLUT does not support native Cocoa on MacOS and uses XQuartz.<br>
 d: MacOS has deprecated OpenGL (and last version it supports in 4.1) and removed OpenCL.<br>
