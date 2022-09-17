@@ -11,7 +11,7 @@ Some popular tools and libraries
 ***: License is not open source.<br>
 a: wxWidgets does not use native API on Linux. It uses either GTK, Qt or Motif. A port for Xorg is being developed, though, but is not actively developed.<br>
 b: Nana supports only Windows and Xorg. It does not support Wayland and MacOS.<br>
-c: Godot officially supports C#, C++ and GDScript. Unofficial bindings supported by community are Rust, Nim, JavaScript, Haskell, Go, Python, Clojure, Haskell, Swift and D.
+c: Godot officially supports C#, C++ and GDScript. Unofficial bindings supported by community are Rust, Nim, JavaScript, Haskell, Go, Python, Clojure, Haskell, Swift and D.<br>
 d: FreeGLUT does not support native Cocoa on MacOS and uses XQuartz.<br>
 e: MacOS has deprecated OpenGL (and last version it supports in 4.1) and removed OpenCL.<br>
 f: Vulkan is not supported on MacOS.<br>
