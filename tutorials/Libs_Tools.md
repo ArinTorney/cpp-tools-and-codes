@@ -1,5 +1,5 @@
 Some popular tools and libraries  
-| |&emsp;Console&emsp;|GUI(native)|&emsp;GUI&nbsp;(themed)&emsp;|2D Game|3D Game|3D Rendering|Audio|Image Processing|CPU and GPU Computation|Threading|  
+| |Console|GUI(native)|&emsp;GUI&nbsp;(themed)&emsp;|2D Game|3D Game|3D Rendering|Audio|Image Processing|CPU and GPU Computation|Threading|  
 |-|-|-|-|-|-|-|-|-|-|-|  
 |C++|Curses, Linenoise-ng, Crossline|tk, wxWidgets<sup>a</sup>|FLTK, Nana<sup>b</sup>, Qt\*\^<sup>c</sup>,<br>GTK\* (and optionally gtkmm\*, its official C++ binding)|SDL, SFML, Allegro|Godot<sup>d</sup>, Panda3D, Unreal\*\*\*|OpenFrameworks, Irrlicht, Ogre,<br>FreeGLUT<sup>e</sup>/GLFW+GLEW (OpenGL<sup>f</sup>), Vulkan<sup>g</sup>|JUCE\*\*^<sup>h</sup>, SoLoud, Maximilian, PortAudio, OpenAL Soft\*, OpenAL\*\*\*<sup>i</sup>, irrKlang\*\*\*|Magick++, stb|OpenCL<sup>f</sup>, OpenGL Compute Shaders<sup>fj</sup>|Standard Library (`std::thread`, `std::mutex`, `std::atomic`), Boost.Thread, Native (Win32 and POSIX Threads), OpenMP<sup>k</sup>|  
 |Python|Curses, Readline\*\*|tkinter, wxPython<sup>a</sup>|PyGTK\*, PyQt\*\*\^<sup>c</sup>, PySide\*<sup>c</sup>|Pygame, Pyglet, PySDL2|Godot<sup>d</sup>, Panda3D, Ursina|PyOpenGL (Legacy OpenGL<sup>l</sup>),<br>GLFW+PyGLEW (Modern OpenGL<sup>f</sup>), PyVulkan<sup>g</sup>|PyAudio, Mingus|wand|PyOpenCL<sup>f</sup>||  
