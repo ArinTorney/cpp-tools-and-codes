@@ -6,9 +6,9 @@ Some popular tools and libraries
 |Rust|Console|Azul|fltk-rs, gtk-rs, iced|||||||Standard Library|  
 |Java||AWT|Swing|LWJGL||||||`Thread` class|  
 <sup>
-*: License is open source, but does not allow static linking.<br>
-**: License is open source, but does not allow distributing executable under a different license.<br>
-***: License is not open source.<br>
+*: License is open source, but does not allow static linking. (suitable for most cases, but if both static and shared libraries exist it may add up complexity in linking)<br>
+**: License is open source, but does not allow distributing executable under a different license. (suitable only for open source projects which will be released under the same license)<br>
+***: License is not open source. (suitable for open source projects and basic proprietary projects)<br>
 a: wxWidgets does not use native API on Linux. It uses either GTK, Qt or Motif. A port for Xorg is being developed, though, but is not actively developed. GTK looks native on GNOME, Xfce, MATE and Cinnamon though, and Qt on LXQt, KDE and Deepin.<br>
 b: Nana supports only Windows and Xorg. It does not support Wayland and MacOS.<br>
 c: Godot officially supports C#, C++ and GDScript. Unofficial bindings supported by community are Rust, Nim, JavaScript, Haskell, Go, Python, Clojure, Haskell, Swift and D.<br>
