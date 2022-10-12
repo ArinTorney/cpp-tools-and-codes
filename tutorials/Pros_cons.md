@@ -17,5 +17,5 @@ Pros:
 
 Cons:  
 1. It sometimes shows unncessary warnings, like nonstandard style or unused code, which have no reason to raise a problem. They need to be turned off in every main file.  
-2. Working with smart pointers can sometimes be difficult to adjust to.  
-3. It lacks some basic concepts like function overloading, which has to be done indirectly through traits, and object oriented features.  
+2. Safe mode is less flexible, which may be obvious enough. Also, working with smart pointers can sometimes be difficult to adjust to.  
+3. It lacks some basic concepts like function overloading, which has to be done indirectly through traits, and object oriented features like inheritence.  
