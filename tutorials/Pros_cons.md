@@ -2,7 +2,7 @@
 Pros:  
 1. It is a very flexible programming language. It has a lot many features and syntaxes which can help create various modern and traditional control flows.  
 2. It is very fast and compiled to native code. This is something which lets build kernel components, applications relying on real time data, games etc.  
-3. It has a wide community. There are dozens of good libraries, even open source ones, out there for each particular job. There are many good compilers (e.g. GCC, Clang, MSVC etc.), standard libraries (e.g. libstdc++, libc++, MSVC STL, etc.), linters and formatters (e.g. VSCode's Linter, various other code editor extensions), documentation tools(e.g. Doxygen, Sphinx etc.), build tools (e.g. CMake, MSBuild, XMake etc.), package managers (e.g. MSYS2 pacman, Linux default package managers etc.) and other tools out there.  
+3. It has a wide community. There are dozens of good libraries, even open source ones, out there for each particular job. There are many good compilers (e.g. GCC, Clang, MSVC etc.), standard libraries (e.g. libstdc++, libc++, MSVC STL, etc.), linters and formatters (e.g. VSCode's Linter, various other code editor extensions), documentation tools(e.g. Doxygen, Sphinx etc.), build tools (e.g. CMake, MSBuild, XMake etc.), package managers (e.g. MSYS2 pacman, MacOS "Home"brew, Linux software and library package managers like apt, dpkg, dnf, pacman etc.) and other tools out there.  
 
 Cons:  
 1. It can be found as overly complex by a few, since it has a lot many syntaxes.
