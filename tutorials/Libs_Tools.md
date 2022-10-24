@@ -10,7 +10,7 @@ Some popular tools and libraries
 **: License is open source, but does not allow distributing executable under a different license. (suitable only for open source projects which will be released under the same license)<br>
 *^ or **^: License is dual, both open source and proprietary and/or parts of the code are open source but rest is proprietary.<br>
 ***: License is not open source. (suitable for open source projects and basic proprietary projects)<br>
-a: wxWidgets does not use native API on Linux. It uses either GTK, Qt or Motif. A port for Xorg is being developed, though, but is not actively developed. GTK looks native on GNOME, Xfce, MATE and Cinnamon though, and Qt on LXQt, KDE and Deepin.<br>
+a: wxWidgets does not use native API on Linux. It uses either GTK or Motif. A port for Xorg is being developed, though, but is not actively developed. Same is the case with a port for Qt. GTK looks native on GNOME, Xfce, MATE and Cinnamon though, and Qt on LXQt, KDE and Deepin.<br>
 b: Nana supports only Windows and Xorg. It does not support Wayland and MacOS.<br>
 c: Qt has both open source and proprietary licenses. As open source it is dual licensed under LGPLv3 and GPLv3. As closed source a license can be bought allowing static linking. PyQt is also licensed the same way, except that there is no option for LGPLv3. PySide is an alternative Python binding licensed under LGPLv2.1.<br>
 d: Godot officially supports C#, C++ and GDScript. Unofficial bindings supported by community are Rust, Nim, JavaScript, Haskell, Go, Python, Clojure, Haskell, Swift and D.<br>
