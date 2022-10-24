@@ -5,27 +5,12 @@ For Windows, C#, Visual Basic and C++/CLI are programming languages built for th
 ### MacOS  
 For MacOS, Objective C and Swift are programming languages built for the purpose. Swift, however, has poor compatibility with C code. And Objective C is less memory safe. C++ can still be used, but it is really complicated.  
 ### Linux  
-Linux has not made a separate programming language for its apps, but most developers prefer C or C++. For GUI applications, the native Wayland libries (for Wayland) and Xlib or XCB (for X11) can be used. But generally they are quite complex. So GTK (native to GNOME, Cinnamon, Xfce etc.) or QT m
-a
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-y be preferred for most applications.  
+Linux has not made a separate programming language for its apps, but most developers prefer C or C++. For GUI applications, the native Wayland libries (for Wayland) and Xlib or XCB (for X11) can be used. But generally they are quite complex. So GTK (native to GNOME, Cinnamon, Xfce etc.) or QT (native to KDE, LXQt etc.) or GNUStep (in Objective C) may be preferred for most applications.  
 ### Cross platform  
-Then maybe it depends upon the need. Usually C++ should be good, though. But there are many others too like Rust, Python etc.  
+FOr cross platform applications there are many ways to make them. Usually C++ should be good, though. But there are many others too like Rust, Python etc. For a library, WxWidgets is one of the best cross platform ones, which has the speciality of using native widgets from the native toolkit on each platform. For a GUI toolkit which emulates a native look across all platofrms, Qt may be a good choice. Tk can be an alternative to Qt.  
+### Text User Interface  
+For this C++ or Python are usually used. Ncurses is possibly the best library to go with.  
 ## Console applications  
-These should possibly use C++, or Python. Curses library simplifies the job of making them.  
+These should possibly use C++, because it is extremely fast in terms of performance. Libraries like Crossline, Linenoise-ng may assist.
 ## Games  
-For games, it is good to squeeze up all the performance. So C++ or Rust shall be good. But C++ may be better because it has a ton of libraries for it, and it has a properly designed object oriented paradigm. But somebody worrying about so called clean code may take Rust.
+For games, it is good to squeeze up all the performance. So C++ or Rust shall be good. But C++ may be better because it has a ton of libraries for it, and it has a properly designed object oriented paradigm. But somebody worrying about so called clean code may take Rust. For a rendering engine, pure OpenGL is excellent. SDL or SFML or Allegro can be used for 2D game development.
