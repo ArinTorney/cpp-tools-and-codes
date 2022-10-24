@@ -13,4 +13,5 @@ For this C++ or Python are usually used. Ncurses is possibly the best library to
 ## Console applications  
 These should possibly use C++, because it is extremely fast in terms of performance. Libraries like Crossline, Linenoise-ng may assist.
 ## Games  
-For games, it is good to squeeze up all the performance. So C++ or Rust shall be good. But C++ may be better because it has a ton of libraries for it, and it has a properly designed object oriented paradigm. But somebody worrying about so called clean code may take Rust. For a rendering engine, pure OpenGL is excellent. SDL or SFML or Allegro can be used for 2D game development.
+For games, it is good to squeeze up all the performance. So C++ or Rust shall be good. But C++ may be better because it has a ton of libraries for it, and it has a properly designed object oriented paradigm. But somebody worrying about so called clean code may take Rust. For a rendering engine, pure OpenGL is excellent. SDL or SFML or Allegro can be used for 2D game development. For 3D games Irrlicht or Ogre may work well. If a game engine is needed, Godot (C++
+, C#, GDScript), Unreal (C++), Unity (C#) or CryEngine (C++) may be good choices.
