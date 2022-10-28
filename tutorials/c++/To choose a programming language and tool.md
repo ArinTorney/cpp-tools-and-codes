@@ -2,12 +2,14 @@
 ## General purpose GUI applicatiions  
 ### Windows  
 For Windows, C#, Visual Basic and C++/CLI are programming languages built for the purpose. However, since the original API is written for C, even C and C++ can be used. The best option can be the native API for Windows, but MFC can also be used.  
+<small>Note: Windows is now able to run Linux apps through Windows Subsystem for Linux. Console apps can be run directly. GUI apps can be run using tools like WSLg(not on Windows 10) or VcXSrv.<br>Windows can use X11 libraries through MSYS2 or Cygwin, which both ship with a Windows port to GCC compiler toolchain and GNU Binutils.<br>GNUStep can be installed to use Cocoa on Windows.</small>  
 ### MacOS  
-For MacOS, Objective C and Swift are programming languages built for the purpose. Swift, however, has poor compatibility with C code. And Objective C is less memory safe. C++ can still be used, but it is really complicated.  
-### Linux  
-Linux has not made a separate programming language for its apps, but most developers prefer C or C++. For GUI applications, the native Wayland libries (for Wayland) and Xlib or XCB (for X11) can be used. But generally they are quite complex. So GTK (native to GNOME, Cinnamon, Xfce etc.) or QT (native to KDE, LXQt etc.) or GNUStep (in Objective C) may be preferred for most applications.  
+For MacOS, Objective C and Swift are programming languages built for the purpose. Swift, however, has poor compatibility with C code. And Objective C is less memory safe. C++ can still be used, but it is relatively difficult. The API for building applications on this pllatform is called Cocoa.  
+<small>Note: MacOS is unix based, but it is proprietary and its default user interface is less customisable, and it has a different look and feel altogether, so it is taken under a different section.<br>Alongside native applications, MacOS can also use X11 toolkit through XQuartz.</small>  
+### Unix Based (i.e. Linux (Ubuntu, Arch, Debian, Fedora, Mint, RHEL etc.), BSD (FreeBSD, OpenBSD and NetBSD), Unix, OpenSolaris etc.)  
+Linux has not made a separate programming language for its apps, but most developers prefer C or C++. For GUI applications, the native Wayland libries (for Wayland) and Xlib or XCB (for X11) can be used. But generally they are quite complex. So widget toolkits that are native to a few desktop environments GTK (native to GNOME, Cinnamon, Xfce etc.) or QT (native to KDE, LXQt etc.) or GNUStep (native to Backbone etc.) (in Objective C to use Cocoa on Linux) or Motif (native to a few Unix DEs) may be preferred for most applications.  
 ### Cross platform  
-FOr cross platform applications there are many ways to make them. Usually C++ should be good, though. But there are many others too like Rust, Python etc. For a library, WxWidgets is one of the best cross platform ones, which has the speciality of using native widgets from the native toolkit on each platform. For a GUI toolkit which emulates a native look across all platofrms, Qt may be a good choice. Tk can be an alternative to Qt.  
+FOr cross platform applications there are many ways to make them. Usually C++ should be good, though. But there are many others too like Rust, Python etc. For a library, WxWidgets is one of the best cross platform ones, which has the speciality of using native widgets from the native toolkit on each platform (Windows, GTK and Cocoa active, Motif active but deprecated, X11, Universal and Qt in development). For a GUI toolkit which emulates a native look a
 ### Text User Interface  
 For this C++ or Python are usually used. Ncurses is possibly the best library to go with.  
 ## Console applications  
