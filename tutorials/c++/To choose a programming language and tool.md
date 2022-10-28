@@ -1,7 +1,7 @@
 # To choose a programming language and tool  
 ## General purpose GUI applicatiions  
 ### Windows  
-For Windows, C#, Visual Basic and C++/CLI are programming languages built for the purpose. However, since the original API is written for C, even C and C++ can be used. The best option can be the native API for Windows, but MFC can also be used.  
+For Windows, C#, Visual Basic and C++/CLI are programming languages built for the purpose. However, since the original API is written for C, even C and C++ can be used. The best option can be the native API for Windows, but MFC can also be used. For a compiler toolchain, MSVC possibly the best, because it is packed with tools and support as being the compiler and IDE with the purpose of making Windows applications. But MinGW can be an open source replacement. It is best downloaded as MinGW-w64 or MinGW-w64-UCRT through MSYS2 and it lets the use of GNU's tools for making Windows applications.  
 <sub>Note: Windows is now able to run Linux apps through Windows Subsystem for Linux. Console apps can be run directly. GUI apps can be run using tools like WSLg(not on Windows 10) or VcXSrv.<br>Windows can use X11 libraries through MSYS2 or Cygwin, which both ship with a Windows port to GCC compiler toolchain and GNU Binutils.<br>GNUStep can be installed to use Cocoa on Windows.</sub>  
 ### MacOS  
 For MacOS, Objective C and Swift are programming languages built for the purpose. Swift, however, has poor compatibility with C code. And Objective C is less memory safe. C++ can still be used, but it is relatively difficult. The API for building applications on this pllatform is called Cocoa.  
