@@ -117,9 +117,19 @@ This editor is just like a subset of Neovim, and is just a bit lesser than it. I
 ### Supported Programming Language Syntaxes (by default): 143  
 ### Projects: No  
 ### Multiple Tabs: Yes
-### Plugins: 11  
+### Plugins: 11 possibly in Python  
 ### UI: Graphical  
 This is a code editor for Linux and MacOS (and optionally for Windows through MSYS2) written in GTK 3 and is simple yet powerful. It has only 11 plugins bundled though. But they all provide basic important features like Python console, snippets, document statistics etc. And a customised style can also be added. Because of the GTK, it has a excellent user interface, with "New Window", "Quick Open...", "Save As...", "Save All", "Find...", "Find and Replace...", "Clear Highlight", "Go to Line...", "View", "Tools", "Preferences", "Keyboard Shortcuts", "Help" and "About Text Editor" options in the GTK menu (and refresh, print and fullscreen) and other options for opening files, new tabs and saving files on the bar at the top.  
+## Kate  
+### Written in: C++  
+### Owner: KDE  
+### License: LGPLv2.1+
+### Supported Programming Language Syntaxes (by default): 433  
+### Projects: No  
+### Multiple Tabs: Yes  
+### Pllugins: written in C++  
+### UI: Graphical  
+--TODO--  
 ## Notepad++  
 ### Written in: C++  
 ### Owner: Don Ho  
