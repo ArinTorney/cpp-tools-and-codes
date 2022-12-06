@@ -1,0 +1,3 @@
+# 1. SFML  
+Current Version: 2.5  
+SFML is a C++ library for creating 2d graphics, OpenGL and multimedia based applications. In all, it is a library which makes excellent use of every good C++ feature. It also has a really amazing documentation, and dozens of tutorials are made on it, including its official one. But there is one flaw I noticed, though it is possibly under development for the 2.6 of it, and that flaw is unicode support. I tried to print some chess piece emojis and CJK glyphs, but falied even with unicode based fonts and even using a lot of help from already asked questions regarding the same. But later I realised that it lacks unicode support. I hope this is added in the close future.
