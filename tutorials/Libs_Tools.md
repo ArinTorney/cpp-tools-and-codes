@@ -1,10 +1,10 @@
 Some popular tools and libraries  
-| |Console|GUI (native API)|GUI(native)|&emsp;GUI&nbsp;(themed)&emsp;|2D Game|3D Game|3D Rendering|Audio|Image Processing|CPU and GPU Computation|Threading|  
-|-|-|-|-|-|-|-|-|-|-|-|-|  
-|C++|Curses, Linenoise-ng, Crossline, Readline\*\*|Win32 API (Windows),<br> Xlib, XCB(Linux (and other Nix), X11),<br> Wayland API (Linux (and a few BSD), Wayland)<br> Carbon(deprecated), Cocoa(MacOS)|wxWidgets<sup>a</sup>, Tk|FLTK, Nana<sup>b</sup>, Qt\*\^<sup>c</sup>,<br>GTK\* (and optionally gtkmm\*, its official C++ binding)|SDL, SFML, Allegro|Godot<sup>d</sup>, Panda3D, Unreal\*\*\*|OpenFrameworks, Irrlicht, Ogre,<br>FreeGLUT<sup>e</sup>/GLFW+GLEW (OpenGL<sup>f</sup>), Vulkan<sup>g</sup>|SoLoud, Maximilian, PortAudio, OpenAL Soft\*, JUCE\*\*^<sup>h</sup>, OpenAL\*\*\*<sup>i</sup>, irrKlang\*\*\*|Magick++, stb|OpenCL<sup>f</sup>, OpenGL Compute Shaders<sup>fj</sup>|Standard Library (`std::thread`, `std::mutex`, `std::atomic`), Boost.Thread, Native (Win32 and POSIX Threads), OpenMP<sup>k</sup>|  
-|Python|Curses, Readline\*\*||wxPython<sup>a</sup>, Tkinter|PyGTK\*, PyQt\*\*\^<sup>c</sup>, PySide\*<sup>c</sup>|Pygame, Pyglet, PySDL2|Godot<sup>d</sup>, Panda3D, Ursina|PyOpenGL (Legacy OpenGL<sup>l</sup>),<br>GLFW+PyGLEW (Modern OpenGL<sup>f</sup>), PyVulkan<sup>g</sup>|PyAudio, Mingus|wand|PyOpenCL<sup>f</sup>||  
-|Rust|Console||Azul|fltk-rs, gtk-rs, iced|||||||Standard Library|  
-|Java|||AWT|Swing|LWJGL||||||`Thread` class|  
+||Console|GUI (native API)|GUI(native)|&emsp;GUI&nbsp;(themed)&emsp;|2D Game|GUI (Immediate Mode)|3D Game|3D Rendering|Audio|Image Processing|CPU and GPU Computation|Threading|  
+|-|-|-|-|-|-|-|-|-|-|-|-|-|  
+|C++|Curses, Linenoise-ng, Crossline, Readline\*\*|Win32 API (Windows),<br> Xlib, XCB(Linux (and other Nix), X11),<br> Wayland API (Linux (and a few BSD), Wayland)<br> Carbon(deprecated), Cocoa(MacOS)|wxWidgets<sup>a</sup>, Tk|FLTK, Nana<sup>b</sup>, Qt\*\^<sup>c</sup>,<br>GTK\* (and optionally gtkmm\*, its official C++ binding)|SDL, SFML, Allegro|Dear ImGUI, Nuklear, FlatUI|Godot<sup>d</sup>, Panda3D, Unreal\*\*\*|OpenFrameworks, Irrlicht, Ogre,<br>FreeGLUT<sup>e</sup>/GLFW+GLEW (OpenGL<sup>f</sup>), Vulkan<sup>g</sup>|SoLoud, Maximilian, PortAudio, OpenAL Soft\*, JUCE\*\*^<sup>h</sup>, OpenAL\*\*\*<sup>i</sup>, irrKlang\*\*\*|Magick++, stb|OpenCL<sup>f</sup>, OpenGL Compute Shaders<sup>fj</sup>|Standard Library (`std::thread`, `std::mutex`, `std::atomic`), Boost.Thread, Native (Win32 and POSIX Threads), OpenMP<sup>k</sup>|  
+|Python|Curses, Readline\*\*||wxPython<sup>a</sup>, Tkinter|PyGTK\*, PyQt\*\*\^<sup>c</sup>, PySide\*<sup>c</sup>|Pygame, Pyglet, PySDL2||Godot<sup>d</sup>, Panda3D, Ursina|PyOpenGL (Legacy OpenGL<sup>l</sup>),<br>GLFW+PyGLEW (Modern OpenGL<sup>f</sup>), PyVulkan<sup>g</sup>|PyAudio, Mingus|wand|PyOpenCL<sup>f</sup>||  
+|Rust|Console||Azul|fltk-rs, gtk-rs, iced||||||||Standard Library|  
+|Java|||AWT|Swing|LWJGL|||||||`Thread` class|  
 <sup>
 *: License is open source, but does not allow static linking. (suitable for most cases, but if both static and shared libraries exist it may add up complexity in linking)<br>
 **: License is open source, but does not allow distributing executable under a different license. (suitable only for open source projects which will be released under the same license)<br>
