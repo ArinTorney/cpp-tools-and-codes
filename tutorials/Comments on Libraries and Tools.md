@@ -16,4 +16,4 @@ WxWidgets and a C++ library for creating GUI using widgets. Its biggest advantag
 # 4. Dear ImGui  
 Current Version: 1.89  
 License: MIT  
-Dear ImGui, or ImGui in short is a library for creating immediate mode GUI in a window.
+Dear ImGui, or ImGui in short is a library for creating immediate mode GUI inside a window. It is used in C++ for the same purpose as tweakpane and dat.gui are used with threejs in JavaScript/HTML. It has several backends (namely Allegro 5, GLFW, GLUT, Mac OS, SDL and Win32, and there maybe third party backends) and supports various renderers (namely DirectX 9, DirectX 10, DirectX 11, DirectX 12, Metal, OpenGL 2, OpenGL 3, SDL Renderer and Vulkan, don't know about others). According to my experience, it is good looking and somewhat easy to manage, at least for simple controls. But I found the SDL renderer backend is somewhat slow and laggy.
