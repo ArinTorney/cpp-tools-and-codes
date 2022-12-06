@@ -1,15 +1,15 @@
 Some popular tools and libraries  
-| |Console|GUI(native)|&emsp;GUI&nbsp;(themed)&emsp;|2D Game|3D Game|3D Rendering|Audio|Image Processing|CPU and GPU Computation|Threading|  
-|-|-|-|-|-|-|-|-|-|-|-|  
-|C++|Curses, Linenoise-ng, Crossline, Readline\*\*|wxWidgets<sup>a</sup>|Tk, FLTK, Nana<sup>b</sup>, Qt\*\^<sup>c</sup>,<br>GTK\* (and optionally gtkmm\*, its official C++ binding)|SDL, SFML, Allegro|Godot<sup>d</sup>, Panda3D, Unreal\*\*\*|OpenFrameworks, Irrlicht, Ogre,<br>FreeGLUT<sup>e</sup>/GLFW+GLEW (OpenGL<sup>f</sup>), Vulkan<sup>g</sup>|SoLoud, Maximilian, PortAudio, OpenAL Soft\*, JUCE\*\*^<sup>h</sup>, OpenAL\*\*\*<sup>i</sup>, irrKlang\*\*\*|Magick++, stb|OpenCL<sup>f</sup>, OpenGL Compute Shaders<sup>fj</sup>|Standard Library (`std::thread`, `std::mutex`, `std::atomic`), Boost.Thread, Native (Win32 and POSIX Threads), OpenMP<sup>k</sup>|  
-|Python|Curses, Readline\*\*|wxPython<sup>a</sup>|Tkinter, PyGTK\*, PyQt\*\*\^<sup>c</sup>, PySide\*<sup>c</sup>|Pygame, Pyglet, PySDL2|Godot<sup>d</sup>, Panda3D, Ursina|PyOpenGL (Legacy OpenGL<sup>l</sup>),<br>GLFW+PyGLEW (Modern OpenGL<sup>f</sup>), PyVulkan<sup>g</sup>|PyAudio, Mingus|wand|PyOpenCL<sup>f</sup>||  
-|Rust|Console|Azul|fltk-rs, gtk-rs, iced|||||||Standard Library|  
-|Java||AWT|Swing|LWJGL||||||`Thread` class|  
+| |Console|GUI (native API)|GUI(native)|&emsp;GUI&nbsp;(themed)&emsp;|2D Game|3D Game|3D Rendering|Audio|Image Processing|CPU and GPU Computation|Threading|  
+|-|-|-|-|-|-|-|-|-|-|-|-|  
+|C++|Curses, Linenoise-ng, Crossline, Readline\*\*|Win32 API (Windows),<br> Xlib, XCB(Linux (and other Nix), X11),<br> Wayland API (Linux (and a few BSD), Wayland)<br> Carbon(deprecated), Cocoa(MacOS)|wxWidgets<sup>a</sup>, Tk|FLTK, Nana<sup>b</sup>, Qt\*\^<sup>c</sup>,<br>GTK\* (and optionally gtkmm\*, its official C++ binding)|SDL, SFML, Allegro|Godot<sup>d</sup>, Panda3D, Unreal\*\*\*|OpenFrameworks, Irrlicht, Ogre,<br>FreeGLUT<sup>e</sup>/GLFW+GLEW (OpenGL<sup>f</sup>), Vulkan<sup>g</sup>|SoLoud, Maximilian, PortAudio, OpenAL Soft\*, JUCE\*\*^<sup>h</sup>, OpenAL\*\*\*<sup>i</sup>, irrKlang\*\*\*|Magick++, stb|OpenCL<sup>f</sup>, OpenGL Compute Shaders<sup>fj</sup>|Standard Library (`std::thread`, `std::mutex`, `std::atomic`), Boost.Thread, Native (Win32 and POSIX Threads), OpenMP<sup>k</sup>|  
+|Python|Curses, Readline\*\*||wxPython<sup>a</sup>, Tkinter|PyGTK\*, PyQt\*\*\^<sup>c</sup>, PySide\*<sup>c</sup>|Pygame, Pyglet, PySDL2|Godot<sup>d</sup>, Panda3D, Ursina|PyOpenGL (Legacy OpenGL<sup>l</sup>),<br>GLFW+PyGLEW (Modern OpenGL<sup>f</sup>), PyVulkan<sup>g</sup>|PyAudio, Mingus|wand|PyOpenCL<sup>f</sup>||  
+|Rust|Console||Azul|fltk-rs, gtk-rs, iced|||||||Standard Library|  
+|Java|||AWT|Swing|LWJGL||||||`Thread` class|  
 <sup>
 *: License is open source, but does not allow static linking. (suitable for most cases, but if both static and shared libraries exist it may add up complexity in linking)<br>
 **: License is open source, but does not allow distributing executable under a different license. (suitable only for open source projects which will be released under the same license)<br>
 *^ or **^: License is dual, both open source and proprietary and/or parts of the code are open source but rest is proprietary.<br>
-***: License is not open source. (suitable for open source projects and basic proprietary projects)<br>
+***: License is not open source, and places restrictions on using. (suitable for open source projects and basic proprietary projects)<br>
 a: wxWidgets does not use native API on Linux. It uses either GTK or Motif. A port for Xorg is being developed, though, but is not actively developed. Same is the case with a port for Qt. GTK looks native on GNOME, Xfce, MATE and Cinnamon though, and Qt on LXQt, KDE and Deepin.<br>
 b: Nana supports only Windows and Xorg. It does not support Wayland and MacOS.<br>
 c: Qt has both open source and proprietary licenses. As open source it is dual licensed under LGPLv3 and GPLv3. As closed source a license can be bought allowing static linking. PyQt is also licensed the same way, except that there is no option for LGPLv3. PySide is an alternative Python binding licensed under LGPLv2.1.<br>
