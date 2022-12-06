@@ -10,7 +10,7 @@ SDL is a C library (and is also used with C++) for creating 2d graphics (both sy
 
 # 3. WxWidgets  
 Current Version: 3.1 - 3.2 (latest is 3.2.1)  
-Liecense: LGPL with WxWindows exception (WxWindows Library License)  
+License: LGPL with WxWindows exception (WxWindows Library License)  
 WxWidgets and a C++ library for creating GUI using widgets. Its biggest advantage is that it has several backends, and recommends the most native looking and most developed (by them) backend as the default on each system (Win32 API on Windows, Cocoa on MacOS, GTK (although native only to certain DEs) on Linux), a rare way (only a few like Tk use this way), which is unlike a few (e.g. QT, GTK, FLTK etc.) which draw all the widgets on a canvas. For developing applications which look truly native across all platforms, this is possibly one of the best choices. It also supports unicode using a conditional macro called `wxT` and a data type called `wxString`. But, I doubt about its OpenGL support. I know it supports that, but I think it is possibly not installed by default. Also, it is complicated (though possible through its API itself) to get control over the main function of our program.  
 
 # 4. Dear ImGui  
