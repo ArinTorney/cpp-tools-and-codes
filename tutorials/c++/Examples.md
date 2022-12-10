@@ -3,6 +3,13 @@
 ```c
 // Vec3.h
 
+#ifndef __VEC3_H_INCLUDED__
+#define __VEC3_H_INCLUDED
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 typedef struct Vec3_struct *Vec3; // opaque pointer is used for encapsulation (named differently to be compatible with C++)
 Vec3 Vec3_new(double x, double y, double z);
 void Vec3_delete(Vec3 _inst); // _inst is used as a convention, using any other name e.g. self is also fine
@@ -10,6 +17,12 @@ void Vec3_delete(Vec3 _inst); // _inst is used as a convention, using any other 
 Vec3 Vec3_fromVec3(Vec3 _inst);
 double Vec3_get(Vec3 _inst, char param);
 void Vec3_set(Vec3 _inst, char param, double value);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
 
 // Vec3.c
 
