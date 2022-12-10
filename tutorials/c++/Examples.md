@@ -4,7 +4,7 @@
 // Vec3.h
 
 #ifndef __VEC3_H_INCLUDED__
-#define __VEC3_H_INCLUDED
+#define __VEC3_H_INCLUDED__
 
 #ifdef __cplusplus
 extern "C" {
