@@ -1,6 +1,7 @@
 ## XCB Basic Example  
 ```c
 // C/C++ example to create a basic X11 window with white background using XCB
+// XCB is an alternative to XLib for creating X11 applications. A port of it is available for Windows.
 #define X11_NO_WINDOW_DECORATIONS 0 // set this to 1 to disable default window decorations done by DEs
 
 #include <string.h>
