@@ -3,10 +3,12 @@ Pros:
 1. It is a very flexible programming language. It has a lot many features and syntaxes which can help create various modern and traditional control flows.  
 2. It is very fast and compiled to native code. This is something which lets build kernel components, applications relying on real time data, games etc.  
 3. It has a wide community. There are dozens of good libraries, even open source ones, out there for each particular job. There are many good compilers (e.g. GCC, Clang, MSVC etc.), standard libraries (e.g. libstdc++, libc++, MSVC STL, etc.), linters and formatters (e.g. VSCode's Linter, various other code editor extensions), documentation tools(e.g. Doxygen, Sphinx etc.), build tools (e.g. CMake, MSBuild, XMake etc.), package managers (e.g. MSYS2 pacman, MacOS "Home"brew, Linux software and library package managers like apt, dpkg, dnf, pacman etc.) and other tools out there.  
+4. It has a excellent interoperability with other programming languages, like Python (Python provided header files and libraries, boost/python etc.), Rust (bindgen (only C, poor C++ support), cbindgen, Cpp, Cxx etc. crates), JVM-based (Java, Kotlin etc.) (NestedVM (uses GCC 3.3.6), bedatadriven/renjin/tools/gcc-bridge etc.), Web-based (Emscripten etc.) and perhaps even Lua and many more.
 
 Cons:  
 1. It can be found as overly complex by a few, since it has a lot many syntaxes.
 2. It is difficult to write error free code. Nevertheless, this thing enhances debugging skills by a huge extent. But debugging gets easier on practice.  
+3. There is no standard tooling, and this may be a problem in some cases. In most cases, people only use the popular tools, though.  
 
 ## Rust  
 Pros:  
