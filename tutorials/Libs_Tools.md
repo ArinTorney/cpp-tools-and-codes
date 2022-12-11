@@ -16,8 +16,8 @@ b: Nana supports only Windows and Xorg. It does not support Wayland and MacOS.<b
 c: Qt has both open source and proprietary licenses. As open source it is dual licensed under LGPLv3 and GPLv3. As closed source a license can be bought allowing static linking. PyQt is also licensed the same way, except that there is no option for LGPLv3. PySide is an alternative Python binding licensed under LGPLv2.1.<br>
 d: Godot officially supports C#, C++ and GDScript. Unofficial bindings supported by community are Rust, Nim, JavaScript, Haskell, Go, Python, Clojure, Haskell, Swift and D.<br>
 e: FreeGLUT does not support native Cocoa on MacOS and uses XQuartz.<br>
-f: MacOS has deprecated OpenGL (and last version it supports in 4.1) and removed OpenCL.<br>
-g: Vulkan is not supported on MacOS.<br>
+f: MacOS has deprecated OpenGL (and last version it supports in 4.1) and removed OpenCL. There is a project called ANGLE, though, which is attempting to translate OpenGL ES (a subset of OpenGL) calls to Metal (and other native APIs) (only ES 2.0 supported on MacOS, 3.0 support in progress, according to GitHub).<br>
+g: Vulkan is not supported on MacOS. There is an open source project, called KhronosGroup/MoltenVK, which translates Vulkan calls to Metal for MacOS.<br>
 h: juce_audio_basics, juce_audio_devices, juce_core and juce_events are licensed under ISC license. Other modules are covered under GPL or JUCE Personal (revenue upto $50/month), Education (legal educational institutions), Indie (revenue upto $500/month, $40/month or $800) or Pro ($130/month or $2600) EULAs.<br>
 i: Older versions of OpenAL are open sourced under LGPL, and even older versions are under BSD.<br>
 j: Compute Shaders are only supported in OpenGL 4.3+.<br>
