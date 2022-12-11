@@ -6,7 +6,7 @@ Some popular tools and libraries
 |Rust|Console||Azul|fltk-rs, gtk-rs, iced||||||||Standard Library|  
 |Java|||AWT|Swing|LWJGL|||||||`Thread` class|  
 <sup>
-*: License is open source, but does not allow static linking. (suitable for most cases, but if both static and shared libraries exist it may add up complexity in linking)<br>
+*: License is open source, but does not allow static linking. (suitable for most cases, but is a bit problematic on Windows, because external shared libraries are not a part of system)<br>
 **: License is open source, but does not allow distributing executable under a different license. (suitable only for open source projects which will be released under the same license)<br>
 *^ or **^: License is dual, both open source and proprietary and/or parts of the code are open source but rest is proprietary.<br>
 ***: License is not open source, and places restrictions on using it. (suitable for open source projects and basic proprietary projects)<br>
