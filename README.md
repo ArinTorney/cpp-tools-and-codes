@@ -3,7 +3,7 @@ This is nothing, just a bunch of C++ and Rust codes and guides  to help programm
 # Projects  
 ### C++
 1. (about to come) Sho Shogi using SDL2 and Dear ImGui  
-NOTE: The ImGui part is a bit laggy.
+NOTE: The ImGui part is a bit laggy, possibly because I used SDL's software renderer instead of OpenGL renderer.
 ### Rust  
 None  
 ### Tutorials and Blogs  
