@@ -2,7 +2,8 @@
 This is nothing, just a bunch of C++ and Rust codes and guides  to help programming.  
 # Projects  
 ### C++
-1. OpenGL Framework (yet to be created) (Under GCC License) (Uses FreeGLUT and GLEW)  
+1. (about to come) Sho Shogi using SDL2 and Dear ImGui  
+NOTE: The ImGui part is a bit laggy.
 ### Rust  
 None  
 ### Tutorials and Blogs  
