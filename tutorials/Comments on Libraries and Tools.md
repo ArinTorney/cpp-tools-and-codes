@@ -1,6 +1,6 @@
 # 1. SFML  
 Current Version: 2.5  
-License: zlib, Freetype (FreeType), public doman (libjpeg and stb_image), LGPL (OpenAL Soft), BSD (libogg, libvorbis and libflac)  
+License: zlib, Freetype (FreeType), public domain (libjpeg and stb_image), LGPL (OpenAL Soft), BSD (libogg, libvorbis and libflac)  
 SFML is a C++ library for creating hardware accelerated 2d graphics, OpenGL and multimedia based applications. In all, it is a library which makes excellent use of every good C++ feature. Another thing is that the graphics and terminal can run as two separate processes (at least on Linux). Also, it has a really amazing documentation, and dozens of tutorials are made on it, including its official one. But there is one flaw I noticed, though it is possibly under development for the 2.6 of it, and that flaw is unicode support. I tried to print some chess piece emojis and CJK glyphs, but falied even with unicode based fonts. But later I realised that it lacks unicode support. I hope this is added in the close future.  
 
 # 2. SDL
