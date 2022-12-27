@@ -2,8 +2,8 @@
 This is nothing, just a bunch of C++ and Rust codes and guides  to help programming.  
 # Projects  
 ### C++
-1. (about to come) Sho Shogi using SDL2 and Dear ImGui  
-NOTE: The ImGui part is a bit laggy, possibly because I used SDL's software renderer instead of OpenGL renderer.
+1. (about to come) Sho Shogi  
+        This is an application which uses SDL and Dear ImGui to create a playable board for Sho Shogi, which is the direct ancestor of modern Shogi, also called Japanese Chess. This uses SDL's software renderer backend. The ImGui part is a bit laggy, possibly because of the same reason.  
 ### Rust  
 None  
 ### Tutorials and Blogs  
