@@ -22,5 +22,5 @@ h: juce_audio_basics, juce_audio_devices, juce_core and juce_events are licensed
 i: Older versions of OpenAL are open sourced under LGPL, and even older versions are under BSD.<br>
 j: Compute Shaders are only supported in OpenGL 4.3+.<br>
 k: OpenMP relies on compiler support. GCC, Clang and MSVC support it, though.<br>
-l: Legacy OpenGL is deprecated, uses deprecated concepts, and very few vendors support it.
+l: Legacy OpenGL is deprecated, uses deprecated concepts, and very few vendors support it (Intel, AMD and NVIDIA support it, though.).
 </sup>
