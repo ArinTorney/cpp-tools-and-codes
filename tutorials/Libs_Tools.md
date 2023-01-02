@@ -6,7 +6,7 @@ Some popular tools and libraries
 |Rust|Console||Azul|fltk-rs, gtk-rs, iced|||||||||Standard Library||  
 |Java|||AWT|Swing|LWJGL||||||||`Thread` class||  
 <sup>
-Category 0- : License is open source, and allows linking anyhow. All permissive and a few weak copylefts come under this category. (suitable everywhere)  
+Category 0- : License is open source, and allows linking anyhow. All permissive and a few weak copylefts come under this category. (suitable everywhere)<br>
 Category 1- *: License is open source, but does not allow static linking. All moderately weak copylefts come under this category. (suitable for most cases, but is a bit problematic on Windows, because external shared libraries are not a part of system)<br>
 Category 2- **: License is open source, but does not allow distributing executable under a different license. All strong network protective copylefts come under this category. (suitable only for open source projects which will be released under the same license)<br>
 Category 3- *^ or **^: License is dual, both open source and proprietary and/or parts of the code are open source but rest is proprietary.<br>
