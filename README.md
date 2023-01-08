@@ -10,9 +10,9 @@ zlib License
 2] ocornut/imgui (tested using a master branch after version 1.89.1)  
 MIT License  
 3] Noto Serif CJK JP Bold (font)  
-SIL Open Font License 1.1 (https://github.com/googlefonts/noto-cjk/blob/main/Serif/LICENSE)  
+[SIL Open Font License 1.1](https://github.com/googlefonts/noto-cjk/blob/main/Serif/LICENSE)  
 4] Ubuntu L (font)  
-Ubuntu Font License 1.0 (https://ubuntu.com/legal/font-licence) (not approved by FSF and OSI)  
+[Ubuntu Font License 1.0](https://ubuntu.com/legal/font-licence) (not approved by FSF and OSI)  
 5] Thinking of using [HaChu](https://sources.debian.org/src/hachu/0.21-29-gdf26f4a-3/) for implementing AI  
 Public Domain  
 ### Rust  
