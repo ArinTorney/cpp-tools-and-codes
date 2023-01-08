@@ -14,7 +14,7 @@ Libraries and Tools used:
 4] Ubuntu L (font)  
 [Ubuntu Font License 1.0](https://ubuntu.com/legal/font-licence) (not approved by FSF and OSI)  
 5] Thinking of using [HaChu](https://sources.debian.org/src/hachu/0.21-29-gdf26f4a-3/) for implementing AI  
-Public Domain  
+[Public Domain](https://sources.debian.org/src/hachu/0.21-29-gdf26f4a-3/debian/copyright/)  
 ### Rust  
 None  
 ### Tutorials and Blogs  
