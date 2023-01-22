@@ -49,3 +49,19 @@ This is one of the many archivers available for Linux. It is majorly command lin
 ### Users: Xfce, LXDE
 ### License: GPLv2+  
 ### Written in: C  
+
+## 5. Inkscape  
+### Type: Vector Graphics Editor  
+### Package on GNOME Software: deb, snap, flatpak  
+### Developers: Ted Gould, Bryce Harrington, Nathan Hurst, MenTaLguY  
+### License: GPLv3+  
+### Written in: C++  
+This is a good tool for drawing vector graphics in SVG and other formats. It is worthy of competing with CorelDraw.  
+
+## 6. Blender  
+### Type: 3D Modelling and Sculpting Tool, 3D Animation Tool  
+### Package on GNOME Software: deb, snap, flatpak  
+### Developer: Blender Foundation  
+### License: GPLv2+  
+### Written in: C, C++, Python  
+No better open source tool is there for the jobs it does. In fact even proprietary tools compete with Blender.  
