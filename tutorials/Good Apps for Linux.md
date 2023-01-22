@@ -2,7 +2,7 @@
 
 ## 1. Gedit  
 ### Type: General Purpose Text and Source Code Editor  
-### Package on GNOME Software: deb  
+### Package on GNOME Software: deb, snap, flatpak  
 ### Developers: Paolo Maggi, Paolo Borelli, Steve Frécinaux, Jesse van den Kieboom, James Willcox, Chema Celorio  
 ### User: GNONE  
 ### License: GPLv2+  
@@ -11,7 +11,7 @@ On GNOME 3 and a few earlier versions of GNOME 4, the default text editor was Ge
 
 ## 2. Okular  
 ### Type: PDF Viewer  
-### Package on GNOME Software: deb, snap  
+### Package on GNOME Software: deb, snap, flatpak  
 ### Developer: KDE  
 ### User: KDE  
 ### License: GPLv2, GPLv3  
@@ -20,7 +20,7 @@ This is possibly the best PDF viewer for Linux. It was created for KDE desktop e
 
 ## 3. Pinta  
 ### Type: Raster Graphics Editor  
-### Package on GNOME Software: deb, snap  
+### Package on GNOME Software: deb, snap, flatpak  
 ### Developer: Cameron White, Robert Nordan, Olivier Dufour  
 ### License: MIT  
 ### Written in: C#  
@@ -33,12 +33,12 @@ This is almost a drop in replacement for Microsoft Paint on Linux and is good fo
 ### Written in: C, C++, Assembly  
 This is one of the many archivers available for Linux. It is majorly command line, but is used as a backend by many Linux archivers A few are given below. Except for the first one, which is dedicated to be a GUI for this, others also use other backends.  
 ## 4.1. P7Zip Desktop  
-### Package on GNOME Software: deb  
+### Package on GNOME Software: snap  
 ### Developer: Ernesto Castellotti  
 ### License: LGPLv2.1+  
 ### Written in: C++  
-## 4.2. GNOME Archive Manager  
-### Package on GNOME Software: deb  
+## 4.2. Archive Manager  
+### Package on GNOME Software: deb, flatpak  
 ### Developer: Paolo Bacchilega  
 ### User: GNOME  
 ### License: GPLv2+  
