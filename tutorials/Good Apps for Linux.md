@@ -28,7 +28,7 @@ This is almost a drop in replacement for Microsoft Paint on Linux and is good fo
 ### Developer: Igor Pavalov  
 ### License: LGPLv2.1+, LGPLv2.1+ + unRAR License Restriction (RAR algorithm), New BSD (LZFSE algorithm)  
 ### Written in: C, C++, Assembly  
-This is one of the best archivers available for Linux. It is majorly command line, but is used as a backend by many Linux archivers A few are given below.  
+This is one of the many archivers available for Linux. It is majorly command line, but is used as a backend by many Linux archivers A few are given below. Except for the first one, which is dedicated to be a GUI for this, others also use other backends.  
 ## 4.1. P7Zip Desktop  
 ### Developer: Ernesto Castellotti  
 ### License: LGPLv2.1+  
