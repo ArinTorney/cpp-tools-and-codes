@@ -59,7 +59,7 @@ This is one of the many archivers available for Linux. It is majorly command lin
 This is a good tool for drawing vector graphics in SVG and other formats. It is worthy of competing with CorelDraw.  
 
 ## 6. Blender  
-### Type: 3D Modelling and Sculpting Tool, 3D Animation Tool  
+### Type: 3D Modelling, Rendering and Sculpting Tool, 3D Animation Tool  
 ### Package on GNOME Software: deb, snap, flatpak  
 ### Developer: Blender Foundation  
 ### License: GPLv2+  
