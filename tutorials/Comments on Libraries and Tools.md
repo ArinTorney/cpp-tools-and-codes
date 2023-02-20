@@ -28,7 +28,7 @@ Current Version: 0.9.9.8
 License: MIT or Happy Bunny (proprietary)  
 OpenGL Mathematics, or GLM in short, is a library used for mathematical computations in OpenGL. It is very easy to use and saves a lot of time, both while learning OpenGL, where you would else have to learn all the complicated projection and view matrix (model matrix is easy) math, and while using it to make programs, where it saves lot of implementation time. The original library by Groovounet was very buggy, I could not get a simple perspective projection work when I tried it out of curiosity, but the latest release by g-truc is excellent.  
 
-### Tinyobjloader  
+### 7. Tinyobjloader  
 Current Version: 1.0.6  
 License: MIT, ISC (mapbox/earcut.hpp)  
 Tinyobjloader is a very easy to use yet detailed Waveform OBJ loader, and is alright for simple models. In all, it uses an object oriented API without requiring the user to make separate classes (making separate classes like wxWidgets is the worst thing an OO library can have), so it is what I said in the previous sentence and self descriptive. But yes, a tutorial may be required, even I required a tutorial, because it lacks its own. Another good thing is that it has only one file, and so no fuss related to linking is needed here, if you define a macro given in the example on README.  
